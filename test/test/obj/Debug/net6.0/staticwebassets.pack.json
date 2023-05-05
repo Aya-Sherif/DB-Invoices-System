@@ -1,0 +1,597 @@
+{
+  "Files": [
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\test.bundle.scp.css",
+      "PackagePath": "staticwebassets\\test.bundle.scp.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\default-css.css",
+      "PackagePath": "staticwebassets\\assets\\css\\default-css.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\metisMenu.css",
+      "PackagePath": "staticwebassets\\assets\\css\\metisMenu.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\css\\typography.css",
+      "PackagePath": "staticwebassets\\assets\\css\\typography.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\author\\author-img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\author-img1.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\author\\author-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\author-img2.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\author\\author-img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\author-img3.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\author\\author-img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\author-img4.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\author\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\avatar.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\bg\\singin-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\singin-bg.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\blog\\post-thumb1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post-thumb1.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\blog\\post-thumb2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post-thumb2.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img1.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img10.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img2.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img3.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img4.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img5.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img6.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img7.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img8.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\card\\card-img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img9.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\loader.gif"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\logo.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\logo2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\logo2.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\market-value\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\market-value\\icon1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\icon1.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\market-value\\icon2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\icon2.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\market-value\\icon3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\icon3.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\market-value\\icon4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\icon4.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\market-value\\trends-down-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\trends-down-icon.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\market-value\\trends-up-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\trends-up-icon.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\market-value\\triangle-down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\triangle-down.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\icon\\market-value\\triangle-up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\triangle-up.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\media\\media1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\media\\media1.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\media\\media2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\media\\media2.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\team\\team-author1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author1.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\team\\team-author2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author2.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\team\\team-author3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author3.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\team\\team-author4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author4.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\images\\team\\team-author5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author5.jpg"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\bar-chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bar-chart.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\line-chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\line-chart.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\maps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\maps.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\metisMenu.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\pie-chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pie-chart.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\vendor\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\assets\\js\\vendor\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\css\\32px.png",
+      "PackagePath": "staticwebassets\\css\\32px.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\css\\throbber.gif",
+      "PackagePath": "staticwebassets\\css\\throbber.gif"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\css\\tree-viewer.css",
+      "PackagePath": "staticwebassets\\css\\tree-viewer.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\js\\jquery-3.1.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.1.0.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\js\\jstree.active.js",
+      "PackagePath": "staticwebassets\\js\\jstree.active.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\js\\jstree.min.js",
+      "PackagePath": "staticwebassets\\js\\jstree.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "Z:\\ZC\\2 year\\database\\project\\DB-Invoices-System\\test\\test\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.test.props",
+      "PackagePath": "build\\test.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.test.props",
+      "PackagePath": "buildMultiTargeting\\test.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.test.props",
+      "PackagePath": "buildTransitive\\test.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.test.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
