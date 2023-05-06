@@ -59,29 +59,31 @@
                     <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                         <div class="menu_section">
                             <h3>General</h3>
-                            <ul class="nav side-menu">
+                                              <ul class="nav side-menu">
                                 <li>
-                                    <a asp-page="/Index"><i class="fa fa-home"></i> Home </a>
+                                    <a asp-page="/Index"> Home </a>
 
                                 </li>
                                 <li>
-                                    <a><i class="fa fa-file-text-o"></i> Invoices </a>
+                                    <a asp-page="/InvoicesMainAdmin"> Invoices </a>
 
                                 <li>
-                                    <a><i class="fa fa-desktop"></i> Workers </a>
-
-                                </li>
-                                <li>
-                                    <a asp-page="/ProjectDataAdmin">><i class="fa fa-table"></i> Projects </a>
+                                    <a asp-page="/Workers"> Workers </a>
 
                                 </li>
                                 <li>
-                                    <a asp-page="/Calender">><i class="fa fa-table"></i> Calender </a>
+                                    <a asp-page="/ProjectDataAdmin"> Projects </a>
 
                                 </li>
                                 <li>
-                                    <a asp-page="/Settings"><i class="fa fa-cogs"></i> Settings </a>
+                                    <a asp-page="/Calender"> Calender </a>
+
+                                </li>
+                                <li>
+                                    <a asp-page="/Settings"> Settings </a>
+                                                                    </li>
                             </ul>
+
                         </div>
 
                     </div>
@@ -110,6 +112,7 @@
                 <div class="nav_menu">
                     <div class="nav toggle">
                         <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+
                     </div>
                 </div>
             </div>
