@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace invoices_system.Pages
 {
-    public class EditeWorkerDataModel : PageModel
+    public class EditWorkerDataModel : PageModel
     {
         public void OnGet()
         {

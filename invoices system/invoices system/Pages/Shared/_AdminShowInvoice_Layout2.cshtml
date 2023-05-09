@@ -29,6 +29,14 @@
 
     <!-- Custom Theme Style -->
     <link href="~/build/css/custom.min.css" rel="stylesheet">
+
+
+        <!----  ----------------------------- -->
+
+
+
+ 
+
 </head>
 <body class="nav-md">
     <div class="container body">
@@ -61,27 +69,44 @@
                             <h3>General</h3>
                             <ul class="nav side-menu">
                                 <li>
-                                    <a asp-page="/Index"> Home </a>
-
-                                </li>
-
-                                <li>
-                                    <a asp-page="/InvoicesMainAdmin"> Invoices </a>
-
-                                <li>
-                                    <a asp-page="/Workers"> Workers </a>
+                                    <a asp-page="/Index">
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                        Home
+                                    </a>
 
                                 </li>
                                 <li>
-                                    <a asp-page="/ProjectDataAdmin"> Projects </a>
+                                    <a asp-page="/InvoicesMainAdmin">
+                                        <i class="fa fa-file-o" aria-hidden="true"></i>
+                                        Invoices
+                                    </a>
+
+                                <li>
+                                    <a asp-page="/Workers">
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        Workers
+                                    </a>
 
                                 </li>
                                 <li>
-                                    <a asp-page="/Calender"> Calender </a>
+                                    <a asp-page="/Projects">
+                                        <i class="fa fa-building-o" aria-hidden="true"></i>
+                                        Projects
+                                    </a>
 
                                 </li>
                                 <li>
-                                    <a asp-page="/Settings"> Settings </a>
+                                    <a asp-page="/Calender">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        Calender
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a asp-page="/Settings">
+                                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                                        Settings
+                                    </a>
                                 </li>
                             </ul>
 
@@ -117,9 +142,11 @@
                     </div>
                 </div>
             </div>
+       
             <!-- /top navigation -->
-            @RenderBody()
             <!-- footer content -->
+     
+            @RenderBody()
             <footer>
                 <div class="pull-right">
                     Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
@@ -159,6 +186,41 @@
 
     <!-- Custom Theme Scripts -->
     <script src="~/build/js/custom.min.js"></script>
+
+          <!-- ----------------------------------- -->
+
+    @*  <!-- Jquery Core Js -->
+    <script src="~/plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="~/plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="~/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="~/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+
+    <script src="~/plugins/node-waves/waves.js"></script>*@
+
+    <!-- Editable Table Plugin Js -->
+    <script src="~/plugins/editable-table/mindmup-editabletable.js"></script>
+    <script src="~/js1/pages/tables/editable-table.js"></script>
+   
+
+@*  <!-- Custom Js -->
+    <script src="~/js1/admin.js"></script>
+
+    <!-- Demo Js -->
+    <script src="~/js1/demo.js"></script>
+
+    
+
+*@
+
+
 
 </body>
 </html>
