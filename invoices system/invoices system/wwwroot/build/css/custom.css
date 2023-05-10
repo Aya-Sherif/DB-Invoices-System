@@ -1649,7 +1649,7 @@ h2 {
 .accordion .panel:hover {
   background: #F2F5F7; }
 
-.x_panel {
+/*.x_panel {
   position: relative;
   width: 100%;
   margin-bottom: 10px;
@@ -1663,7 +1663,7 @@ h2 {
   opacity: 1;
   -webkit-transition: all .2s ease;
   transition: all .2s ease; }
-
+*/
 .x_title {
   border-bottom: 2px solid #E6E9ED;
   padding: 1px 5px 6px;
@@ -1704,61 +1704,6 @@ legend {
 
 .demo-placeholder {
   height: 280px; }
-
-/** Contacts **/
-.profile_details:nth-child(3n) {
-  clear: both; }
-
-.profile_details .profile_view {
-  display: inline-block;
-  padding: 10px 0 0;
-  background: #fff; }
-
-.profile_details .profile_view .divider {
-  border-top: 1px solid #e5e5e5;
-  padding-top: 5px;
-  margin-top: 5px; }
-
-.profile_details .profile_view .ratings {
-  margin-bottom: 0; }
-
-.profile_details .profile_view .left {
-  margin-top: 20px; }
-
-.profile_details .profile_view .left p {
-  margin-bottom: 3px; }
-
-.profile_details .profile_view .right {
-  margin-top: 0px;
-  padding: 10px; }
-
-.profile_details .profile_view .img-circle {
-  border: 1px solid #E6E9ED;
-  padding: 2px; }
-
-.profile_details .profile_view h2 {
-  margin: 5px 0; }
-
-.profile_details .profile_view .ratings {
-  text-align: left;
-  font-size: 16px; }
-
-.brief {
-  margin: 0;
-  font-weight: 300; }
-
-.profile_details .profile_left {
-  background: white; }
-
-.pagination.pagination-split li {
-  display: inline-block;
-  margin-right: 3px; }
-
-.pagination.pagination-split li a {
-  border-radius: 4px;
-  color: #768399;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px; }
 
 /** Contacts **/
 /* *********  /custom accordion  **************************** */
@@ -1933,7 +1878,7 @@ table.jambo_table tbody tr.selected td {
   background-color: white; }
 
 .dataTables_info {
-  width: 60%;
+  width: 100%;
   float: left; }
 
 .dataTables_paginate {

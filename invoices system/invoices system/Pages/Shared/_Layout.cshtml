@@ -30,7 +30,7 @@
     <link href="~/build/css/custom.min.css" rel="stylesheet">
 </head>
 
-<body class="nav-md">
+<body class="nav-md" style="background-image: url(../images/AdminMain.jpg); background-size:cover; ">
     <div class="container body">
         <div class="main_container">
             <div class="col-md-3 left_col">
@@ -150,19 +150,20 @@
                     </div>
                 </div>
             </div>
-           
-            <!-- /top navigation -->
+        </div>
+    </div>
+    <!-- /top navigation -->
            @RenderBody()
           <!-- footer content -->
-            <footer>
-                <div class="pull-right">
+    @*       <footer style="position:absolute; bottom:0%;  width:auto">
+                <div  class="pull-right">
                     Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
                 </div>
+                
                 <div class="clearfix"></div>
-            </footer>
+            </footer>*@
             <!-- /footer content -->
-         </div>
-        </div>
+       
     <!-- jQuery -->
     <script src="~/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->

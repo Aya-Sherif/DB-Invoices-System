@@ -1,5 +1,5 @@
 ﻿/* Navbar ====================================== */
-@import url(materialize.css);
+/*@import url(materialize.css);
 .navbar {
   font-family: "Roboto", sans-serif;
   -webkit-border-radius: 0;
@@ -707,10 +707,10 @@
   margin-top: 4px; }
 
 .col-white .navbar .bars:hover {
-  background-color: rgba(0, 0, 0, 0.08); }
+  background-color: rgba(0, 0, 0, 0.08); }*/
 
 /* Material Icons ============================== */
-.material-icons.md-18 {
+/*.material-icons.md-18 {
   font-size: 18px; }
 
 .material-icons.md-24 {
@@ -732,7 +732,7 @@
   font-size: 36px; }
 
 .material-icons.md-48 {
-  font-size: 48px; }
+  font-size: 48px; }*/
 
 /* Helpers ===================================== */
 .m-l--125 {
@@ -4584,44 +4584,7 @@ section.content {
   border-radius: 0;
   margin-bottom: 0; }
 
-/* Tables ====================================== */
-.table tbody tr td, .table tbody tr th {
-  padding: 10px;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee; }
 
-.table tbody tr.primary td, .table tbody tr.primary th {
-  background-color: #1f91f3;
-  color: #fff; }
-
-.table tbody tr.success td, .table tbody tr.success th {
-  background-color: #2b982b;
-  color: #fff; }
-
-.table tbody tr.info td, .table tbody tr.info th {
-  background-color: #00b0e4;
-  color: #fff; }
-
-.table tbody tr.warning td, .table tbody tr.warning th {
-  background-color: #ff9600;
-  color: #fff; }
-
-.table tbody tr.danger td, .table tbody tr.danger th {
-  background-color: #fb483a;
-  color: #fff; }
-
-.table thead tr th {
-  padding: 10px;
-  border-bottom: 1px solid #eee; }
-
-.table-bordered {
-  border-top: 1px solid #eee; }
-  .table-bordered tbody tr td, .table-bordered tbody tr th {
-    padding: 10px;
-    border: 1px solid #eee; }
-  .table-bordered thead tr th {
-    padding: 10px;
-    border: 1px solid #eee; }
 
 /* Panel ======================================= */
 .panel-group .panel-col-red {
@@ -8211,3 +8174,69 @@ html.ie11 .dropdown-menu ul.menu li a {
 
 html.ie11 .bs-searchbox .form-control {
   width: 90%; }
+
+
+
+/* Tables ====================================== */
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+    .table th,
+    .table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+        text-align: left;
+    }
+
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .table tbody + tbody {
+        border-top: 2px solid #ddd;
+    }
+/*.table tbody tr td, .table tbody tr th {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+
+.table tbody tr.primary td, .table tbody tr.primary th {
+  background-color: #1f91f3;
+  color: #fff; }
+
+.table tbody tr.success td, .table tbody tr.success th {
+  background-color: #2b982b;
+  color: #fff; }
+
+.table tbody tr.info td, .table tbody tr.info th {
+  background-color: #00b0e4;
+  color: #fff; }
+
+.table tbody tr.warning td, .table tbody tr.warning th {
+  background-color: #ff9600;
+  color: #fff; }
+
+.table tbody tr.danger td, .table tbody tr.danger th {
+  background-color: #fb483a;
+  color: #fff; }
+
+.table thead tr th {
+  padding: 10px;
+  border-bottom: 1px solid #eee; }
+
+.table-bordered {
+  border-top: 1px solid #eee; }
+  .table-bordered tbody tr td, .table-bordered tbody tr th {
+    padding: 10px;
+    border: 1px solid #eee; }
+  .table-bordered thead tr th {
+    padding: 10px;
+    border: 1px solid #eee; }*/
+  /*---------------------------------------------*/

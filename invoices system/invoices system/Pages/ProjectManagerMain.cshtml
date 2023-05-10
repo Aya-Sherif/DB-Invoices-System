@@ -4,190 +4,179 @@
     Layout = "_ProjectManagerMain_Layout2";
 }
 
-<!DOCTYPE html>
-<html>
-  <head>
-      <style>
- body {
-  background-image: url(../images/bg.jpeg);
-  background-size:auto;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px;
-}
-
-.logo img {
-  height: 50px;
-}
-
-.menu {
-  display: flex;
-}
-
-.icon-button {
-  background-color:transparent;
-  border: none;
-  cursor: pointer;
-  margin-left: 10px;
-}
-
-.icon-button img {
-  height: 30px;
-}
-
-.search-box-container {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
-
-.search-box-container input {
-  padding: 10px;
-  width: 50%;
-  border-radius: 5px;
-  border: none;
-  margin-right: 10px;
-}
-
-.search-box-container button {
-  background-color:transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.search-box-container button img {
-  height: 20px;
-}
-
-.recent-searches {
-  background-color: #fff;
-  margin: 50px auto;
-  padding: 20px;
-  width: 70%;
-  border-radius: 10px;
-  box-shadow: 0 0 5px #ccc;
-}
-
-.recent-searches h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.search-boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
-  align-items: center;
-}
-
-.search-box-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-  width: calc(40% - 10px); /* 3 boxes side by side with margin */
-  background-color: #f5f5f5;
-  border-radius: 5px;
-}
-
-.search-box-item p {
-  font-size: 16px;
-  margin: 0;
-}
-
-.delete-button {
-  margin-left: 10px;
-}
-
-.delete-button img {
-  height: 20px;
-}
-
-footer {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 5px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
- 
-}
-      </style>
-    <title>Search Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-@*   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-*@  </head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="" alt="Logo">
+@*<main class="mb-4">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+            </div>
         </div>
-        <div class="menu">
-            <button class="icon-button">
-                <img src="https://cdn-icons-png.flaticon.com/512/60/60817.png" alt="Home">
-            </button>
-            <button class="icon-button">
-                <img src="https://cdn-icons-png.flaticon.com/512/3524/3524659.png" alt="Settings">
-            </button>
-        </div>
-    </header>
-    <main>
-        <div class="search-box-container">
-            <input type="text" placeholder="Search">
-            <button type="submit"><img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="Search"></button>
-        </div>
+    </div>
+</main>
+*@
+<body style="background-image: url(../images/PM.jpg); background-size:cover; ">
+    <div class="main">
 
-        <div class="recent-searches">
-            <h2>Recent Searches</h2>
-            <div class="search-boxes">
-                <div class="search-box-item">
-                    <p>Search Query 1</p>
-                    <button class="icon-button delete-button">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3405/3405244.png" alt="Delete">
-                    </button>
-                </div>
-
-                <div class="search-box-item">
-                    <p>Search Query 2</p>
-                    <button class="icon-button delete-button">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3405/3405244.png" alt="Delete">
-                    </button>
-                </div>
-                <div class="search-box-item">
-                    <p>Search Query 3</p>
-                    <button class="icon-button delete-button">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3405/3405244.png" alt="Delete">
-                    </button>
-                </div>
-                <div class="search-box-item">
-                    <p>Search Query 4</p>
-                    <button class="icon-button delete-button">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3405/3405244.png" alt="Delete">
-                    </button>
-                </div>
-                <div class="search-box-item">
-                    <p>Search Query 5</p>
-                    <button class="icon-button delete-button">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3405/3405244.png" alt="Delete">
-                    </button>
-                </div>
-                <div class="search-box-item">
-                    <p>Search Query 6</p>
-                    <button class="icon-button delete-button">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3405/3405244.png" alt="Delete">
+        <!-- Actual search box -->
+  @*      <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+*@
+        <!-- Another variation with a button -->
+        <div class="main">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search this blog">
+                <div class="input-group-append">
+                    <button class="btn btn-secondary" type="button">
+                        <i class="fa fa-search"></i>
                     </button>
                 </div>
             </div>
+
+            <div class="table-wrapper  table table-borderless table-primary">
+                <table>
+                    <tbody>
+
+                            <tr>
+                                <th>Project Name</th>
+                                <td> ####</td>
+                                                            </tr>
+<tr >       <th>Project ID : </th>
+                                <td> ####</td> </tr>
+                        <tr>
+                            <th>Project Location: </th>
+                            <td>####</td>
+                        </tr>
+                             
+
+
+
+                          
+                    </tbody>
+                </table>
+
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <th>Project Name</th>
+                            <td> ####</td>
+                        </tr>
+                        <tr>
+                            <th>Project ID : </th>
+                            <td> ####</td>
+                        </tr>
+                        <tr>
+                            <th>Project Location: </th>
+                            <td>####</td>
+                        </tr>
+
+
+
+
+
+                    </tbody>
+                </table>
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <th>Project Name</th>
+                            <td> ####</td>
+                        </tr>
+                        <tr>
+                            <th>Project ID : </th>
+                            <td> ####</td>
+                        </tr>
+                        <tr>
+                            <th>Project Location: </th>
+                            <td>####</td>
+                        </tr>
+
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+                        <div class="table-wrapper  table table-borderless table-primary">
+                <table>
+                    <tbody>
+
+                            <tr>
+                                <th>Project Name</th>
+                                <td> ####</td>
+                                                            </tr>
+<tr >       <th>Project ID : </th>
+                                <td> ####</td> </tr>
+                        <tr>
+                            <th>Project Location: </th>
+                            <td>####</td>
+                        </tr>
+                             
+
+
+
+                          
+                    </tbody>
+                </table>
+
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <th>Project Name</th>
+                            <td> ####</td>
+                        </tr>
+                        <tr>
+                            <th>Project ID : </th>
+                            <td> ####</td>
+                        </tr>
+                        <tr>
+                            <th>Project Location: </th>
+                            <td>####</td>
+                        </tr>
+
+
+
+
+
+                    </tbody>
+                </table>
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <th>Project Name</th>
+                            <td> ####</td>
+                        </tr>
+                        <tr>
+                            <th>Project ID : </th>
+                            <td> ####</td>
+                        </tr>
+                        <tr>
+                            <th>Project Location: </th>
+                            <td>####</td>
+                        </tr>
+
+
+
+
+
+                    </tbody>
+                </table>
+
+            </div>
+
         </div>
-    </main>
-    <footer>
-        <p>&copy; 2023 Search Page</p>
-    </footer>
+
+
+
+
+
+
 </body>
-</html>
