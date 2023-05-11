@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/invoices system/.vs
+/invoices system/invoices system/bin/Debug/net6.0
+/invoices system/invoices system/obj/Debug/net6.0

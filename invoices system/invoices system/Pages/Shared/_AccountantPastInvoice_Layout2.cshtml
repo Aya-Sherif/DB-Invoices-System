@@ -55,15 +55,16 @@
     }
     </style>*@
 </head>
-<body style="background-image: url(../images/compress_actuality_teaser_1.jpeg); background-size:cover; ">
+<body style="background-image: url(../images/compress_actuality_teaser_1.jpeg); background-size:cover;">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container px-4 px-lg-5">
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantMain">  Home   </a></li>
 
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantCreatInvoice">New invoice  </a></li>
-                                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantPastInvoice">All Invoices</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantPastInvoice">All Invoices</a></li>
 
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantIsettings">Settings</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantEditInvoice"> Edit </a></li>
@@ -73,6 +74,7 @@
             </div>
         </div>
     </nav>
+
 
     @RenderBody()
 

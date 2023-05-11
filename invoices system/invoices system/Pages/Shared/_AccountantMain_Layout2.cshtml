@@ -1,7 +1,12 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-
+    @*    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">*@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -19,32 +24,27 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
- 
-
-
-    <!-- Vendor CSS-->
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
-
-    <!-- Main CSS-->
-    <link href="css2/main.css" rel="stylesheet" media="all">
-
-
-
+    <link href="~/css2/styles.css" rel="stylesheet" />
+    @*    <style>
+    .no-link-style {
+    color: inherit;
+    text-decoration: none;
+    }
+    </style>*@
 </head>
-<body style="background-image: url(../images/bg-img-01); background-size:cover;">
+<body style="background-image: url(../images/compress_actuality_teaser_1.jpeg); background-size:cover;">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light"  id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container px-4 px-lg-5">
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountingMain">  Home   </a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantMain">  Home   </a></li>
 
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountingInvoices">Show invoice  </a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountingInvoices">All Invoices</a></li>
+
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantPastInvoice">All Invoices</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/Accounting_invoices_Data">Show Invoice</a></li>
 
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantIsettings">Settings</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantEditInvoice"> Edit </a></li>
 
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/Index">Home Admin</a></li>
                 </ul>
@@ -61,18 +61,7 @@
     <!-- Core theme JS-->
     <script src="~/js2/scripts.js"></script>
 
-    <!-- Jquery JS-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- Vendor JS-->
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/jquery-validate/jquery.validate.min.js"></script>
-    <script src="vendor/bootstrap-wizard/bootstrap.min.js"></script>
-    <script src="vendor/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
-    <script src="vendor/datepicker/moment.min.js"></script>
-    <script src="vendor/datepicker/daterangepicker.js"></script>
 
-    <!-- Main JS-->
-    <script src="js2/global.js"></script>
 
     @*  <footer style="position:absolute; bottom:0%" class="border-top footer text-muted">
     <div class="container">
