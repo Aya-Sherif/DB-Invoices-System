@@ -1,4 +1,51 @@
 ﻿@page
 @model invoices_system.Pages.DeletWorkerDataModel
 @{
+    Layout = "_DeletWorkerData_Layout2";
 }
+
+
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+          
+
+            <div class="title_right">
+                <div class="col-md-5 col-sm-5  form-group pull-right top_search">
+                    <div class="input-group">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 ">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <div class="title_left">
+                            <h3>Delete Worker</h3>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <br />
+                        
+                        <p> Are You sure you want to delete</p>
+                        <p style="color:red"> This Worker </p>
+                        <form method="post">
+                            <button class=" btn btn-danger">Delete</button>
+                            <a class=" btn btn-secondary" asp-page="/Workers"> Cancel</a>
+                        </form>
+                        
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
