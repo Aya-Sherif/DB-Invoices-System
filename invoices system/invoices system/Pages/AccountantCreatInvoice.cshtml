@@ -1,4 +1,203 @@
 ﻿@page
 @model invoices_system.Pages.AccountantCreatInvoiceModel
 @{
+    Layout = "_AccountantCreatInvoice_Layout2";
 }
+
+
+    <div class="right_col" role="main">
+        <div class="">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 ">
+                    <div class="x_panel ">
+                        <div class="x_content ">
+                            <section class="content">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="card">
+                                                <div class="body">
+                                                    <style>
+                                                        .btn-float-right {
+                                                            float: right;
+                                                            border: none;
+                                                            color: black;
+                                                            padding: 15px 32px;
+                                                            text-align: center;
+                                                            text-decoration: none;
+                                                            display: inline-block;
+                                                            font-size: 16px;
+                                                            margin: 4px 2px;
+                                                            cursor: pointer;
+                                                            border-radius: 15%;
+                                                            background-color: aqua;
+                                                        }
+                                                    </style>
+                                                    <div style="display: flex; align-items: center;">
+                                                        <h3 style="flex: 1;">Creat Invoice</h3>
+                                                        <button type="button" class="btn-float-right">Creat</button>
+                                                    </div>
+                                                    <table id="mainTable" class="table table-borderless table-primary">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>Accountant Name: </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                                <th>Project Name</th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                                <th>Location:  </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                                <th>Project ID  </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Constractor Name :  </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                                <th> Date : </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                                <th> Invoice Type: </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                                <th> Tax: </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Sarf Elta3lyah : </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                           
+
+                                                                <th> Elta3lyah :  </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                                <th> Diduction : </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                                <th> Loan : </th>
+                                                                <td>
+                                                                    <input type="text">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+
+
+                                                    <!-- Basic Examples -->
+                                                <div class="row clearfix">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="card">
+                                                            <div class="body">
+                                                                <div class="table-responsive">
+                                                                    <table id="table1" class="table table-bordered table-striped table-hover js-exportable">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th>#</th>
+                                                                                    <th>Statement</th>
+                                                                                    <th>Unite</th>
+                                                                                    <th>Previous Quantity</th>
+                                                                                    <th>Current Quantity</th>
+                                                                                    <th>Total Quantities</th>
+                                                                                    <th>Category</th>
+                                                                                    <th>Current Value</th>
+                                                                                    <th>Total Values</th>
+
+
+                                                                                </tr>
+                                                                            </thead>
+
+
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <th>1</th>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    </tr>
+                                                                                <tr>
+                                                                                    <th>2</th>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <input type="text">
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

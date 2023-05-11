@@ -22,7 +22,6 @@ header,
 hgroup,
 main,
 menu,
-nav,
 section,
 summary {
   display: block;
@@ -3629,22 +3628,6 @@ tbody.collapse.in {
   border-bottom: 4px dashed;
   border-bottom: 4px solid \9;
 }
-.dropup .dropdown-menu,
-.navbar-fixed-bottom .dropdown .dropdown-menu {
-  top: auto;
-  bottom: 100%;
-  margin-bottom: 2px;
-}
-@media (min-width: 768px) {
-  .navbar-right .dropdown-menu {
-    right: 0;
-    left: auto;
-  }
-  .navbar-right .dropdown-menu-left {
-    right: auto;
-    left: 0;
-  }
-}
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -3974,7 +3957,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   margin-left: -1px;
 }
-.nav {
+/*.nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -4453,7 +4436,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+*//*.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -4692,7 +4675,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
-}
+}*/
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
