@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudGFudElzZXR0aW5ncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ahmed/OneDrive/Documents/GitHub/DB-Invoices-System/invoices system/invoices system/Pages/AccountantMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudGFudE1haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ahmed/OneDrive/Documents/GitHub/DB-Invoices-System/invoices system/invoices system/Pages/AccountantPastInvoice.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudGFudFBhc3RJbnZvaWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -138,6 +142,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ahmed/OneDrive/Documents/GitHub/DB-Invoices-System/invoices system/invoices system/Pages/Shared/_AccountantIsettings_Layout2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BY2NvdW50YW50SXNldHRpbmdzX0xheW91dDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed/OneDrive/Documents/GitHub/DB-Invoices-System/invoices system/invoices system/Pages/Shared/_AccountantMain_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BY2NvdW50YW50TWFpbl9MYXlvdXQyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ahmed/OneDrive/Documents/GitHub/DB-Invoices-System/invoices system/invoices system/Pages/Shared/_AccountantPastInvoice_Layout2.cshtml]
