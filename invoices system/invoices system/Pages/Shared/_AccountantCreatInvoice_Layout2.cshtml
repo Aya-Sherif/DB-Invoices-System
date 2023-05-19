@@ -1,25 +1,18 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    @*    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">*@
 
-    <meta charset="utf-8" />
+
+  <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
 
 
+    <title>Project Invoices</title>
 
-    <title>Create Invoice</title>
 
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
-
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -29,39 +22,31 @@
     <link href="~/css2/styles.css" rel="stylesheet" />
 
 
-    <!-- JQuery DataTable Css -->
 
-    <link href="../../plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">    <!-- Bootstrap Core Css -->
-
-
-    <link href="../../plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-@*    <!-- Favicon-->
+   <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+    <!-- Bootstrap Core Css -->
+    <link href="../../plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Waves Effect Css -->
     <link href="../../plugins/node-waves/waves.css" rel="stylesheet" />
 
     <!-- Animation Css -->
     <link href="../../plugins/animate-css/animate.css" rel="stylesheet" />
-  
-*@    <!-- Custom Css -->
-    <link href="../../css1/style.css" rel="stylesheet">
+    <!-- JQuery DataTable Css -->
+
+    <link href="../../plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">
+
+  <!-- Custom Css -->
+      <link href="../../css1/style.css" rel="stylesheet">
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-    <link href="../../css1/themes/all-themes.css" rel="stylesheet" />
 
-    @*    <style>
-    .no-link-style {
-    color: inherit;
-    text-decoration: none;
-    }
-    </style>*@
-</head>
+  </head>
 <body style="background-image: url(../images/compress_actuality_teaser_1.jpeg); background-size:cover;">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-        <div class="container px-4 px-lg-5">
+        <div class="container px-6 px-lg-5">
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantMain">  Home   </a></li>
@@ -79,6 +64,8 @@
     </nav>
 
     @RenderBody()
+
+    <!-- Page Header-->
 
     <!-- Page Header-->
     <!-- Bootstrap core JS-->
@@ -115,31 +102,8 @@
     <script src="~/plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
 
 
-
-
-
-
-
-
     <!-- Custom Js -->
     @*    <script src="~/js1/admin.js"></script>
-    *@
-    <script src="~/js1/pages/tables/jquery-datatable.js"></script>
-    <!-- Editable Table Plugin Js -->
-    <script src="~/plugins/editable-table/mindmup-editabletable.js"></script>
-    @*<script src="~/js1/pages/tables/editable-table.js"></script>*@
-
-    @*  <footer style="position:absolute; bottom:0%" class="border-top footer text-muted">
-    <div class="container">
-    &copy; 2023 - WebApplication1 - <a asp-area="" asp-page="/Privacy">Privacy</a>
-    </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @await RenderSectionAsync("Scripts", required: false)*@
-
+*@    <script src="~/js1/pages/tables/jquery-datatable.js"></script>
 </body>
 </html>

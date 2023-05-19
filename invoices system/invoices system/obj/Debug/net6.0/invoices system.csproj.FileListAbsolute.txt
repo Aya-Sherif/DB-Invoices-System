@@ -29,3 +29,34 @@ C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invo
 C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.pdb
 C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.genruntimeconfig.cache
 C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\ref\invoices system.dll
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\appsettings.Development.json
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\appsettings.json
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\invoices system.staticwebassets.runtime.json
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\invoices system.exe
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\invoices system.deps.json
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\invoices system.runtimeconfig.json
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\invoices system.dll
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\invoices system.pdb
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.csproj.AssemblyReference.cache
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.GeneratedMSBuildEditorConfig.editorconfig
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.AssemblyInfoInputs.cache
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.AssemblyInfo.cs
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.csproj.CoreCompileInputs.cache
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.MvcApplicationPartsAssemblyInfo.cache
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.RazorAssemblyInfo.cache
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.RazorAssemblyInfo.cs
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\staticwebassets\msbuild.invoices system.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\staticwebassets\msbuild.build.invoices system.props
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.invoices system.props
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.invoices system.props
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\staticwebassets.pack.json
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\staticwebassets.build.json
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\staticwebassets.development.json
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\scopedcss\bundle\invoices system.styles.css
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\scopedcss\projectbundle\invoices system.bundle.scp.css
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.dll
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\refint\invoices system.dll
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.pdb
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.genruntimeconfig.cache
+Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\ref\invoices system.dll
