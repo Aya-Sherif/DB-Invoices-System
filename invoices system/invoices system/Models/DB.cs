@@ -1,6 +1,5 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
-
 namespace invoices_system.Models
 {
     public class DB

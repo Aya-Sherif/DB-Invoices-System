@@ -3,7 +3,7 @@
 @{
     Layout = "_Login_Layout";
 }
-<body class="login">
+<body class="login" >
     <div>
         <a class="hiddenanchor" id="signup"></a>
         <a class="hiddenanchor" id="signin"></a>
@@ -11,13 +11,13 @@
         <div class="login_wrapper">
             <div class="animate form login_form">
                 <section class="login_content">
-                    <form>
+                    <form method="post">
                         <h1>Login </h1>
                         <div>
-                            <input type="text"  placeholder="Username" class=" form_control" asp-for=@Model.W.userName>
+                            <input type="text"  placeholder="Username" class=" form_control" asp-for="@Model.W.userName">
                         </div>
                         <div>
-                            <input type="password" placeholder="Password" class=" form_control" asp-for=@Model.W.workerPassword>
+                            <input type="password" placeholder="Password" class=" form_control" asp-for="@Model.W.workerPassword">
                         </div>
                         <div>
                             <button type="submit" class="btn btn-primary">Log In</button>
