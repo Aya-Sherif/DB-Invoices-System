@@ -14,7 +14,10 @@
     <meta name="author" content="" />
 
 
-    <title>Project Invoices</title>
+
+    <title>Edit Invoice</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
 
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -27,22 +30,23 @@
     <link href="~/css2/styles.css" rel="stylesheet" />
 
 
+    <!-- JQuery DataTable Css -->
 
-    <!-- Favicon-->
-    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
-    <!-- Bootstrap Core Css -->
+    <link href="../../plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">    <!-- Bootstrap Core Css -->
+
+
     <link href="../../plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    @*    <!-- Favicon-->
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
     <!-- Waves Effect Css -->
     <link href="../../plugins/node-waves/waves.css" rel="stylesheet" />
 
     <!-- Animation Css -->
     <link href="../../plugins/animate-css/animate.css" rel="stylesheet" />
-    <!-- JQuery DataTable Css -->
 
-    <link href="../../plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">
-
-    <!-- Custom Css -->
+    *@    <!-- Custom Css -->
     <link href="../../css1/style.css" rel="stylesheet">
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
@@ -55,26 +59,24 @@
     }
     </style>*@
 </head>
-<body style="background-image: url(../images/compress_actuality_teaser_1.jpeg); background-size:cover;">
+<body style="background-image: url(../images/bg-img-01); background-size:cover;">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light"  id="mainNav">
         <div class="container px-4 px-lg-5">
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantMain">  Home   </a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountingMain">  Home   </a></li>
 
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantCreatInvoice">New invoice  </a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantPastInvoice">All Invoices</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountingInvoices">All Invoices</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/Accounting_invoices_Data">Show invoice  </a></li>
 
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantIsettings">Settings</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/AccountantEditInvoice"> Edit </a></li>
 
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" a asp-page="/Index">Home Admin</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
 
     @RenderBody()
 
@@ -113,10 +115,19 @@
     <script src="~/plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
 
 
+
+
+
+
+
+
     <!-- Custom Js -->
     @*    <script src="~/js1/admin.js"></script>
     *@
     <script src="~/js1/pages/tables/jquery-datatable.js"></script>
+    <!-- Editable Table Plugin Js -->
+    <script src="~/plugins/editable-table/mindmup-editabletable.js"></script>
+    @*<script src="~/js1/pages/tables/editable-table.js"></script>*@
 
     @*  <footer style="position:absolute; bottom:0%" class="border-top footer text-muted">
     <div class="container">
