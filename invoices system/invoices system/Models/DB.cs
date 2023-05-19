@@ -1,6 +1,5 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
-
 namespace invoices_system.Models
 {
     public class DB
@@ -101,8 +100,16 @@ namespace invoices_system.Models
             }
 
         }
-
-
+        public void approveInvoice(string invoiceID)
+        {
+            string Q = "  update Invoice set invoiceStatus='approved' where invoiceID='"+ invoiceID + "'   ";
+            FuncExecuteNonQuery(Q);
+        }
+        public void StopInvoice(string invoiceID)
+        {
+            string Q = "  update Invoice set invoiceStatus='stoped' where invoiceID='" + invoiceID + "'   ";
+            FuncExecuteNonQuery(Q);
+        }
 
 
     }
