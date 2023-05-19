@@ -5,8 +5,8 @@ namespace invoices_system.Models
 {
     public class DB
     {
-        public int Scaler { get; set; }
-        public string StringScaler { get; set; }
+        public int int_Scaler { get; set; }
+        public string String_Scaler { get; set; }
         SqlConnection con = new SqlConnection();
         public DB()
         {
@@ -52,13 +52,13 @@ namespace invoices_system.Models
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(Q, con);
-                Scaler= (int)cmd.ExecuteScalar();
+                int_Scaler= (int)cmd.ExecuteScalar();
             }
             catch (Exception ex) { }
             finally { con.Close(); }
 
 
-            return  Scaler;
+            return  int_Scaler;
         }
         private string FuncExecuteStringScaler(string Q)
         {
@@ -67,18 +67,19 @@ namespace invoices_system.Models
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(Q, con);
-                StringScaler = (string)cmd.ExecuteScalar();
+                String_Scaler = (string)cmd.ExecuteScalar();
             }
             catch (Exception ex) { }
             finally { con.Close(); }
 
 
-            return StringScaler;
+            return String_Scaler;
         }
         public string GetWorkerRoleID(Worker W)//to get the role id that determine user page
         {
             string Q = " select roleID from Worker where userName ='"+W.userName+"' ";
-            return FuncExecuteStringScaler(Q);
+            String_Scaler= FuncExecuteStringScaler(Q);
+            return String_Scaler;
 
         }
 
@@ -86,8 +87,10 @@ namespace invoices_system.Models
         {
 
             string Q = " select workerPassword from Worker where userName ='"+W.userName+"' ";
-            StringScaler = FuncExecuteStringScaler(Q);
-            if (StringScaler == W.workerPassword)
+
+            
+            String_Scaler = FuncExecuteStringScaler(Q);
+            if (String_Scaler == W.workerPassword)
             {
                 return true;
             }
