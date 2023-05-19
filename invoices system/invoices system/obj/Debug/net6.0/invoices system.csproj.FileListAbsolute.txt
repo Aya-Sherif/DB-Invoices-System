@@ -60,3 +60,10 @@ Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system
 Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.pdb
 Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.genruntimeconfig.cache
 Z:\ZC\2 year\database\project\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\ref\invoices system.dll
+C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ahmed\OneDrive\Documents\GitHub\DB-Invoices-System\invoices system\invoices system\obj\Debug\net6.0\invoices system.csproj.CopyComplete
