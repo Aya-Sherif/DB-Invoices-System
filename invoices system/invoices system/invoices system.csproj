@@ -623,4 +623,8 @@
     <None Include="wwwroot\vendors\select2\vendor\jquery-2.1.0.js" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
 </Project>

@@ -93,6 +93,10 @@
       "PackagePath": "staticwebassets\\css1\\themes\\all-themes.min.css"
     },
     {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\css2\\main.css",
+      "PackagePath": "staticwebassets\\css2\\main.css"
+    },
+    {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\css2\\styles.css",
       "PackagePath": "staticwebassets\\css2\\styles.css"
     },
@@ -669,6 +673,10 @@
       "PackagePath": "staticwebassets\\images\\avatar.png"
     },
     {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\images\\bg-img-01.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-img-01.jpg"
+    },
+    {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\images\\bg.jpeg",
       "PackagePath": "staticwebassets\\images\\bg.jpeg"
     },
@@ -879,6 +887,10 @@
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\js1\\script.js",
       "PackagePath": "staticwebassets\\js1\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\js2\\global.js",
+      "PackagePath": "staticwebassets\\js2\\global.js"
     },
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\js2\\scripts.js",
@@ -20213,6 +20225,18 @@
       "PackagePath": "staticwebassets\\vendors\\bootstrap-progressbar\\scss\\bootstrap-progressbar-3.3.0-3.x.x.scss"
     },
     {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\bootstrap-wizard\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-wizard\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\bootstrap-wizard\\jquery.bootstrap.wizard.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-wizard\\jquery.bootstrap.wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\bootstrap-wizard\\jquery.bootstrap.wizard.min.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-wizard\\jquery.bootstrap.wizard.min.js"
+    },
+    {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\bootstrap-wysiwyg\\.bower.json",
       "PackagePath": "staticwebassets\\vendors\\bootstrap-wysiwyg\\.bower.json"
     },
@@ -22611,6 +22635,18 @@
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\datatables.net\\js\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\vendors\\datatables.net\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\datepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\vendors\\datepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\datepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\vendors\\datepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\datepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\vendors\\datepicker\\moment.min.js"
     },
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\devbridge-autocomplete\\.bower.json",
@@ -25177,6 +25213,42 @@
       "PackagePath": "staticwebassets\\vendors\\flot.orderbars\\js\\jquery.flot.orderBars.js"
     },
     {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome-4.7\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome-4.7\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome-4.7\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome-4.7\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome-4.7\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome-4.7\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome-4.7\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome-4.7\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\font-awesome\\.bower.json",
       "PackagePath": "staticwebassets\\vendors\\font-awesome\\.bower.json"
     },
@@ -26849,6 +26921,14 @@
       "PackagePath": "staticwebassets\\vendors\\jquery-sparkline\\version.txt"
     },
     {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\jquery-validate\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery-validate\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\jquery-validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery-validate\\jquery.validate.min.js"
+    },
+    {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\jquery.easy-pie-chart\\.bower.json",
       "PackagePath": "staticwebassets\\vendors\\jquery.easy-pie-chart\\.bower.json"
     },
@@ -27191,6 +27271,14 @@
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\jquery\\external\\sizzle\\dist\\sizzle.min.map",
       "PackagePath": "staticwebassets\\vendors\\jquery\\external\\sizzle\\dist\\sizzle.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery\\jquery.min.js"
     },
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\jquery\\src\\.jshintrc",
@@ -28419,6 +28507,34 @@
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\malihu-custom-scrollbar-plugin\\mCSB_buttons.png",
       "PackagePath": "staticwebassets\\vendors\\malihu-custom-scrollbar-plugin\\mCSB_buttons.png"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\mdi-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\vendors\\mdi-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\mdi-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\vendors\\mdi-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\vendors\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\mjolnic-bootstrap-colorpicker\\.bower.json",
@@ -32359,6 +32475,14 @@
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\select2\\select2.jquery.json",
       "PackagePath": "staticwebassets\\vendors\\select2\\select2.jquery.json"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\vendors\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\vendors\\select2\\select2.min.js"
     },
     {
       "Id": "C:\\Users\\ahmed\\OneDrive\\Documents\\GitHub\\DB-Invoices-System\\invoices system\\invoices system\\wwwroot\\vendors\\select2\\src\\js\\banner.end.js",
