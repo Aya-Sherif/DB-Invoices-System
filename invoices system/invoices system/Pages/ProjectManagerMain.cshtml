@@ -40,17 +40,30 @@
                 <table>
                     <tbody>
 
-                            <tr>
-                                <th>Project Name</th>
-                                <td> ####</td>
-                                                            </tr>
-<tr >       <th>Project ID : </th>
-                                <td> ####</td> </tr>
+                         <tr>
+                              <th>Project Name</th>
+                              <td> @Model.dt.Rows[0][0]</td>
+                        </tr>
+                        <tr >       
+                            <th>Project ID : </th>
+                            <td> @Model.dt.Rows[0][1]</td>
+                        </tr>
                         <tr>
                             <th>Project Location: </th>
-                            <td>####</td>
+                            <td>@Model.dt.Rows[0][2]</td>
                         </tr>
-                             
+                        <tr>
+                           
+                            <th>
+                            <td>
+                                
+                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                               
+                            </td>
+                            </th>
+                           
+                        </tr>
+                           
 
 
 
@@ -63,17 +76,27 @@
 
                         <tr>
                             <th>Project Name</th>
-                            <td> ####</td>
+                            <td> @Model.dt.Rows[1][0]</td>
                         </tr>
                         <tr>
                             <th>Project ID : </th>
-                            <td> ####</td>
+                            <td> @Model.dt.Rows[1][1]</td>
                         </tr>
                         <tr>
                             <th>Project Location: </th>
-                            <td>####</td>
+                            <td>@Model.dt.Rows[1][2]</td>
                         </tr>
-
+                        <tr>
+                           
+                            <th>
+                            <td>
+                                
+                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[1][1]"> Show</a>
+                               
+                            </td>
+                            </th>
+                           
+                        </tr>
 
 
 
@@ -96,7 +119,17 @@
                             <td>####</td>
                         </tr>
 
+                        <tr>
 
+                            <th>
+                            <td>
+
+                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[1][1]"> Show</a>
+
+                            </td>
+                            </th>
+
+                        </tr>
 
 
 
@@ -118,7 +151,17 @@
                             <td>####</td>
                         </tr>
                              
-
+                        <tr>
+                           
+                            <th>
+                            <td>
+                                
+                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                               
+                            </td>
+                            </th>
+                           
+                        </tr>
 
 
                           
@@ -142,7 +185,17 @@
                         </tr>
 
 
+                        <tr>
 
+                            <th>
+                            <td>
+
+                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+
+                            </td>
+                            </th>
+
+                        </tr>
 
 
                     </tbody>
@@ -164,7 +217,17 @@
                         </tr>
 
 
+                        <tr>
 
+                            <th>
+                            <td>
+
+                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+
+                            </td>
+                            </th>
+
+                        </tr>
 
 
                     </tbody>

@@ -22,9 +22,9 @@
 
                                                             <tr>
                                                                 <th>Project Name: </th>
-                                                                <td>####</td>
+                                                                <td>@Model.dt.Rows[0][0]</td>
                                                                 <th>Accountant Name: </th>
-                                                                <td>####</td>
+                                                                <td>@Model.dt3.Rows[0][0]</td>
                                                                 <th>
                                                                     <a href="#" class="btn btn-info btn-xs"><i class="fa fa-plus"></i> Add  </a>
                                                                     <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-ban"></i> Delete </a>
@@ -34,9 +34,9 @@
 
                                                             <tr>
                                                                 <th>Project ID : </th>
-                                                                <td>####</td>
+                                                                <td>@Model.dt.Rows[0][1]</td>
                                                                 <th>Site Engineer Name: </th>
-                                                                <td>####</td>
+                                                                <td>@Model.dt5.Rows[0][0]</td>
                                                                 <th>
                                                                     <a href="#" class="btn btn-info btn-xs"><i class="fa fa-plus"></i> Add  </a>
                                                                     <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-ban"></i> Delete </a>
@@ -44,9 +44,9 @@
                                                             </tr>
                                                             <tr>
                                                                 <th>Project Location : </th>
-                                                                <td>####</td>
+                                                                <td>@Model.dt.Rows[0][2]</td>
                                                                 <th>Project Manager Name: </th>
-                                                                <td>####</td>
+                                                                <td>@Model.dt4.Rows[0][0]</td>
                                                                 <th>
                                                                     <a href="#" class="btn btn-info btn-xs"><i class="fa fa-plus"></i> Add  </a>
                                                                 </th>
@@ -66,6 +66,8 @@
                                                                         <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
                                                                             <thead>
                                                                                 <tr>
+                                                                                    <th>#</th>
+                                                                                    <th>Invoice ID</th>
                                                                                     <th>Invoice Type</th>
                                                                                     <th>Creation Date</th>
                                                                                     <th>State</th>
@@ -81,27 +83,27 @@
 
 
                                                                             <tbody>
-                                                                               @* @for (int i = 0; i < @Model.dt.Rows.Count; i++)
+                                                                                @for (int i = 0; i < @Model.dt2.Rows.Count; i++)
                                                                                 {
                                                                                     <tr>
                                                                                         <th scope="row">@i</th>
-                                                                                        @for (int j = 0; j < @Model.dt.Columns.Count; j++)
+                                                                                        @for (int j = 0; j < @Model.dt2.Columns.Count; j++)
                                                                                         {
-                                                                                            <td>@Model.dt.Rows[i][j]</td>
+                                                                                            <td>@Model.dt2.Rows[i][j]</td>
                                                                                         }
                                                                                         <td>
                                                                                             <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Show </a>
                                                                                             <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Approve </button>
-                                                                                            <a href="#" class="btn btn-danger btn-xs"> <i class="fa fa-ban"></i>Stop </a>
+                                                                                           
 
                                                                                         </td>
 
                                                                                     </tr>
                                                                                 }
-                                                                                *@
                                                                                 
                                                                                 
-                                                                                <tr>
+                                                                                
+                                                                                @*<tr>
                                                                                     <th>SP01</th>
                                                                                     <th>2011/04/25</th>
                                                                                     <th>Loading</th>
@@ -113,8 +115,8 @@
                                                                                         <a href="#" class="btn btn-danger btn-xs"> <i class="fa fa-ban"></i>Stop </a>
 
                                                                                     </th>
-                                                                                </tr>
-                                                                                <tr>
+                                                                                </tr>*@
+                                                                                @*<tr>
                                                                                     <th>SP02</th>
                                                                                     <th>2011/07/25</th>
                                                                                     <th>Done</th>
@@ -138,7 +140,7 @@
                                                                                         <a href="#" class="btn btn-info btn-xs"> Approve </a>
                                                                                         <a href="#" class="btn btn-danger btn-xs"> <i class="fa fa-ban"></i>Stop </a>
 
-                                                                                    </th>
+                                                                                    </th>*@
                                                                                 </tr>
                                                                             </tbody>
 

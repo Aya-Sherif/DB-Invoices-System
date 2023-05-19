@@ -9,7 +9,7 @@ namespace invoices_system.Models
         SqlConnection con = new SqlConnection();
         public DB()
         {
-            string constring = "Data Source=DESKTOP-VF3J892\\MSSQLSERVER01;Initial Catalog=Invoices_System;Integrated Security=True";
+            string constring = "Data Source=LAPTOP-5TUKEHTJ\\ELSHAHED;Initial Catalog=\"Invoices System\";Integrated Security=True";
             con = new SqlConnection(constring);
         }
         private DataTable FuncExecuteReadr(string Q)
@@ -110,7 +110,42 @@ namespace invoices_system.Models
             string Q = "  update Invoice set invoiceStatus='stoped' where invoiceID='" + invoiceID + "'   ";
             FuncExecuteNonQuery(Q);
         }
+        public DataTable getSelectedProjects()//PM
+        {
 
+            string Q = "   select projectName,p.projectID,projectLocation from Project p ,Project_Location pl where p.projectID=pl.projectID ";
+            return FuncExecuteReadr(Q);
+        }
+        public DataTable getSelectedProjectsData(string PID)//PM
+        {
 
+            string Q = "   select projectName,p.projectID,projectLocation from Project p ,Project_Location pl where p.projectID=pl.projectID and p.projectID='"+PID+"' ";
+            return FuncExecuteReadr(Q);
+        }
+        public DataTable getS_Project_current_Invoices(string PID)//PM
+        {
+
+            string Q = "  select invoiceID,invoiceType,startDate,invoiceStatus,contractorName,endDate from Invoice where projectID='"+PID+"'                      ";
+            return FuncExecuteReadr(Q);
+        }
+        public DataTable getS_Project_AC(string PID)//PM
+        {
+
+            string Q = "  select workerName from Worker w where w.workerID=(select w.workerID from Works_On wo , Worker w where wo.workerID=w.workerID  and w.roleID='AC' and wo.projectID='"+PID+"')                     ";
+            return FuncExecuteReadr(Q);
+        }
+
+        public DataTable getS_Project_PM(string PID)//PM
+        {
+
+            string Q = "  select workerName from Worker w where w.workerID=(select w.workerID from Works_On wo , Worker w where wo.workerID=w.workerID  and w.roleID='PM' and wo.projectID='" + PID + "')                     ";
+            return FuncExecuteReadr(Q);
+        }
+        public DataTable getS_Project_SE(string PID)//PM
+        {
+
+            string Q = "  select workerName from Worker w where w.workerID=(select w.workerID from Works_On wo , Worker w where wo.workerID=w.workerID  and w.roleID='SE' and wo.projectID='" + PID + "')                     ";
+            return FuncExecuteReadr(Q);
+        }
     }
 }
