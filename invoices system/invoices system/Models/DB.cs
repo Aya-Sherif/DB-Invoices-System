@@ -10,7 +10,7 @@ namespace invoices_system.Models
         SqlConnection con = new SqlConnection();
         public DB()
         {
-            string constring = "Data Source=LAPTOP-5TUKEHTJ\\ELSHAHED;Initial Catalog=\"Invoices System\";Integrated Security=True";
+            string constring = "Data Source=DESKTOP-VF3J892\\MSSQLSERVER01;Initial Catalog=Invoices_System;Integrated Security=True";
             con = new SqlConnection(constring);
         }
         private DataTable FuncExecuteReadr(string Q)
