@@ -3,7 +3,7 @@
     public class Invoice
     {
 
-
+        public string contractorName { get; set; }
         public string projectID { get; set; }
         public string startDate { get; set; }
 

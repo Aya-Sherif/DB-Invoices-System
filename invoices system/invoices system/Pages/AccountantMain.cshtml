@@ -41,18 +41,52 @@
                 <tbody>
 
                     <tr>
-                        <th>Invoice ID: </th>
-                        <td> ####</td>
+                        <th>Invoice Type </th>
+                        <td> @Model.dt.Rows[0][0]
+                        </td>
                     </tr>
                     <tr>
-                        <th>Contractor Name : </th>
-                        <td> ####</td>
+                        <th>Invoice ID </th>
+                        <td> @Model.dt.Rows[0][1]</td>
                     </tr>
                     <tr>
-                        <th>Date : </th>
-                        <td>####</td>
+                        <th> Status </th>
+                        <td> @Model.dt.Rows[0][2]</td>
                     </tr>
 
+                     <tr>
+                        <th></th>
+                        <th>
+                            <a style=" color:blue" asp-page="/AccountantShowinvoice" asp-route=@Model.dt.Rows[0][1]> Show</a>
+                    </tr>
+
+
+
+                </tbody>
+            </table>
+            <table>
+                <tbody>
+
+                    <tr>
+                        <th>Invoice Type </th>
+                        <td>
+                            @Model.dt.Rows[0][0]
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Invoice ID </th>
+                        <td> @Model.dt.Rows[0][1]</td>
+                    </tr>
+                    <tr>
+                        <th> Status </th>
+                        <td> @Model.dt.Rows[0][2]</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>
+                            <a style=" color:blue" asp-page="/AccountantShowinvoice" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                            </td>
+                    </tr>
 
 
 
@@ -64,87 +98,57 @@
                 <tbody>
 
                     <tr>
-                        <th>Invoice ID: </th>
-                        <td> ####</td>
+                        <th>Invoice Type </th>
+                        <td>
+                            @Model.dt.Rows[0][0]
+                        </td>
                     </tr>
                     <tr>
-                        <th>Contractor Name : </th>
-                        <td> ####</td>
+                        <th>Invoice ID </th>
+                        <td> @Model.dt.Rows[0][1]</td>
                     </tr>
                     <tr>
-                        <th>Date : </th>
-                        <td>####</td>
+                        <th> Status </th>
+                        <td> @Model.dt.Rows[0][2]</td>
                     </tr>
 
-
+                     <tr>
+                        <th></th>
+                        <th>
+                            <a style=" color:blue" asp-page="/AccountantShowinvoice" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                            </td>
+                    </tr>
 
 
 
 
                 </tbody>
             </table>
-            <table>
-                <tbody>
-
-                    <tr>
-                        <th>Invoice ID: </th>
-                        <td> ####</td>
-                    </tr>
-                    <tr>
-                        <th>Contractor Name : </th>
-                        <td> ####</td>
-                    </tr>
-                    <tr>
-                        <th>Date : </th>
-                        <td>####</td>
-                    </tr>
-
-
-
-
-
-                </tbody>
-            </table>
+        
         </div>
         <div class="table-wrapper  table table-borderless table-primary">
             <table>
                 <tbody>
 
                     <tr>
-                        <th>Invoice ID: </th>
-                        <td> ####</td>
+                        <th>Invoice Type </th>
+                        <td>
+                            @Model.dt.Rows[0][0]
+                        </td>
                     </tr>
                     <tr>
-                        <th>Contractor Name : </th>
-                        <td> ####</td>
+                        <th>Invoice ID </th>
+                        <td> @Model.dt.Rows[0][1]</td>
                     </tr>
                     <tr>
-                        <th>Date : </th>
-                        <td>####</td>
+                        <th> Status </th>
+                        <td> @Model.dt.Rows[0][2]</td>
                     </tr>
-
-
-
-
-
-
-                </tbody>
-            </table>
-
-            <table>
-                <tbody>
-
-                    <tr>
-                        <th>Invoice ID: </th>
-                        <td> ####</td>
-                    </tr>
-                    <tr>
-                        <th>Contractor Name : </th>
-                        <td> ####</td>
-                    </tr>
-                    <tr>
-                        <th>Date : </th>
-                        <td>####</td>
+                     <tr>
+                        <th></th>
+                        <th>
+                            <a style=" color:blue" asp-page="/AccountantShowinvoice" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                            </td>
                     </tr>
 
 
@@ -157,24 +161,61 @@
                 <tbody>
 
                     <tr>
-                        <th>Invoice ID: </th>
-                        <td> ####</td>
+                        <th>Invoice Type </th>
+                        <td>
+                            @Model.dt.Rows[0][0]
+                        </td>
                     </tr>
                     <tr>
-                        <th>Contractor Name : </th>
-                        <td> ####</td>
+                        <th>Invoice ID </th>
+                        <td> @Model.dt.Rows[0][1]</td>
                     </tr>
                     <tr>
-                        <th>Date : </th>
-                        <td>####</td>
+                        <th> Status </th>
+                        <td> @Model.dt.Rows[0][2]</td>
                     </tr>
 
 
 
+                     <tr>
+                        <th></th>
+                        <th>
+                            <a style=" color:blue" asp-page="/AccountantShowinvoice" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                            </td>
+                    </tr>
 
 
                 </tbody>
             </table>
+
+            <table>
+                <tbody>
+
+                    <tr>
+                        <th>Invoice Type </th>
+                        <td>
+                            @Model.dt.Rows[0][0]
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Invoice ID </th>
+                        <td> @Model.dt.Rows[0][1]</td>
+                    </tr>
+                    <tr>
+                        <th> Status </th>
+                        <td> @Model.dt.Rows[0][2]</td>
+                    </tr>
+
+
+                     <tr>
+                        <td></td>
+                        <th> <a style=" color:blue" asp-page="/AccountantShowinvoice" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                    </th>
+                    </tr>
+
+                </tbody>
+            </table>
+          
 
         </div>
 

@@ -14,8 +14,11 @@ namespace invoices_system.Pages
         {
             this.db = db;
         }
+     
         public void OnGet()
         {
+        
         }
+
     }
 }

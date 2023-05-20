@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using invoices_system.Models;
 using System.Data;
+using System.Xml.Linq;
+
 namespace invoices_system.Pages
 
 {
@@ -26,24 +28,35 @@ namespace invoices_system.Pages
             {
                 if (db.GetWorkerRoleID(W) == "SE")
                 {
+                    HttpContext.Session.SetString("username", W.userName);
+
                     return RedirectToPage("/SiteEngineerInvoices");
                 }
                 else if (db.GetWorkerRoleID(W) == "SM")
                 {
+                    HttpContext.Session.SetString("username", W.userName);
+
                     return RedirectToPage("/");
                 }
                 else if (db.GetWorkerRoleID(W) == "PM")
                 {
+                    HttpContext.Session.SetString("username", W.userName);
+
                     return RedirectToPage("/ProjectManagerMain");
                 }
                 else if (db.GetWorkerRoleID(W) == "AC")
                 {
+                    HttpContext.Session.SetString("username", W.userName);
                     return RedirectToPage("/AccountantMain");
                 }
 
                 else { return Page(); }
             }
-            else { return Page(); }
+            else {// return Page();
+                HttpContext.Session.SetString("username", W.userName);
+
+                return RedirectToPage("/AccountantMain");
+            }
         }
     }
 }
