@@ -19,11 +19,14 @@ namespace invoices_system.Pages
         public DataTable pdt { get; set; }
 
         public Weekly_Cost WC { get; set; }
+        public AccountantShowinvoiceModel(DB db)
+        {
+            this.db = db;
+        }
         public void OnGet(string id)
         {
 
-            pdt = db.selectallDataOfInvoice(id);
-
+            pdt = db.selectallDataOfInvoice( id);
             Wo.userName = HttpContext.Session.GetString("username");
             Wo.workerID = db.get_worker_id(Wo.userName);
             pojectdt = db.getProjectData(Wo.workerID);

@@ -52,10 +52,8 @@ namespace invoices_system.Pages
 
                 else { return Page(); }
             }
-            else {// return Page();
-                HttpContext.Session.SetString("username", W.userName);
-
-                return RedirectToPage("/AccountantMain");
+            else { return Page();
+             
             }
         }
     }
