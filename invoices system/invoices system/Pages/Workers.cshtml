@@ -50,6 +50,47 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @*@for (int i = 0; i < @Model.dt.Rows.Count; i++)
+                                {
+                                    <tr>
+                                        <th scope="row">@i</th>
+                                        @for (int j = 0; j < @Model.dt.Columns.Count; j++)
+                                        {
+                                            <td>@Model.dt.Rows[i][j]</td>
+                                        }
+                                        <td>
+                                          <a asp-page="EditeWorkerData" asp-route-id="@Model.dt.Rows[i][2]"> Edit</a>
+                                            <a asp-page="DeletWorkerData" asp-route-id="@Model.dt.Rows[i][2]"> Delete</a>
+
+                                        </td>
+
+                                    </tr>
+                                }
+*@
+
+
+
+                                </tr>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                               @* 
                                 <tr>
                                     <th> #</th>
                                     <th> Mahmoud</th>
@@ -89,7 +130,7 @@
                                         <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
                                         <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
                                     </th>
-                                </tr>
+                                </tr>*@
                             </tbody>
                         </table>
                         <!-- end project list -->

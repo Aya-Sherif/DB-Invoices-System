@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using invoices_system.Pages;
+using System.Data;
 using System.Data.SqlClient;
 namespace invoices_system.Models
 {
@@ -163,6 +164,24 @@ namespace invoices_system.Models
 
             string Q = "  select invoiceID,invoiceType,startDate,invoiceStatus,contractorName,endDate from Invoice                      ";
             return FuncExecuteReadr(Q);
+        }
+        public void AddNewWorker(Worker W)
+        {
+            string Q = "insert into Worker values('"+W.workerName+"','"+W.workerID+"','"+W.phoneNumber+"','"+W.userName+"','"+W.workerPassword+"','"+W.roleID+"') ";
+            FuncExecuteNonQuery(Q);
+        }
+        public DataTable GetAllWorkers()
+        {
+            string Q = " select   W.workerName,W.userName,p.projectName from Worker W,Works_On Wo,project p where W.workerID=Wo.workerID and Wo.projectID=p.projectID    ";
+            return FuncExecuteReadr(Q);
+        }
+        public void  EditWorker(string workername ,Worker W)
+        {
+
+            string Q = "    update Worker set userName='"+W.userName+"' , workerName='"+W.workerName+"',roleID='"+W.roleID+"' where userName='"+ workername + "'  ";
+            FuncExecuteNonQuery(Q);
+
+
         }
     }
 }

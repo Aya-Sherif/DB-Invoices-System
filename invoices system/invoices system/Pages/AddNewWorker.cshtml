@@ -29,35 +29,38 @@
                     </div>
                     <div class="x_content">
                         <br />
-                        <form class="form-label-left input_mask">
+                        <form  method="post">
 
                             <div class="col-md-12 col-sm-12  form-group has-feedback">
-                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder=" Name">
+                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder=" Name" asp-for="W.workerName">
                                 <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
                             </div>
 
                             <div class="col-md-12 col-sm-12  form-group has-feedback">
-                                <input type="text" class="form-control has-feedback-left"  placeholder="User Name">
+                                <input type="text" class="form-control has-feedback-left" placeholder="Worker iD" asp-for="W.workerID">
                                 <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
                             </div>
 
-                            <div class="col-md-12 col-sm-12 form-group has-feedback">
-                                <label class="form-control has-feedback-left col-md-1 col-sm-1 ">Role</label>
-                                <select class="col-md-11 col-sm-11 form-control "  name="cars" id="cars">
-                                    <optgroup label="Site Roles">
-
-                                    <option value="SiteEng">Site Engineer</option>
-                                    <option value="SiteAccountant">Site Accountant</option>
-                                    <option value="SitManager">Sit Manager</option>
-                                    </optgroup>
-
-                                </select>
-                            </div>
-
                             <div class="col-md-12 col-sm-12  form-group has-feedback">
-                                <input type="password" class="form-control has-feedback-left" id="password" placeholder="Password">
+                                <input type="text" class="form-control has-feedback-left" placeholder="Phone Number" asp-for="W.phoneNumber">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" placeholder="User Name" asp-for="W.userName">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                <input type="password" class="form-control has-feedback-left" id="password" placeholder="Worker Password" asp-for="W.workerPassword">
                                 <span class="fa fa-unlock-alt form-control-feedback left" aria-hidden="true"></span>
                             </div>
+                             <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" placeholder="Role ID" asp-for="W.roleID">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+
+                           
+
+                            
                             <style>
                                 .btn-float-right {
                                     float: right;
@@ -76,7 +79,7 @@
                                 
                             </style>
 
-                            <button type="button" class=" btn-float-right btn btn-primary"> Add</button>
+                            <button type="submit" class="btn btn-primary"asp-page="Workers">Add</button>
 
 
 

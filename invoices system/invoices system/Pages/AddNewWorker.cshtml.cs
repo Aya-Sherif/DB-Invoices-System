@@ -17,5 +17,10 @@ namespace invoices_system.Pages
         public void OnGet()
         {
         }
+        public IActionResult OnPost()
+        {
+            db.AddNewWorker(W);
+            return RedirectToPage("/Workers");
+        }
     }
 }

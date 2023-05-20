@@ -10,12 +10,22 @@ namespace invoices_system.Pages
         [BindProperty]
         public Worker W { get; set; }
         public DataTable dt { get; set; }
+        public string  Username { get; set; }
         public EditWorkerDataModel(DB db)
         {
             this.db = db;
         }
-        public void OnGet()
+        public void OnGet(string Uname)
         {
+            Username = Uname;
         }
+
+        public IActionResult OnPost()
+        {
+
+            db.EditWorker(Username, W);
+            return RedirectToPage("/Workers");
+        }
+
     }
 }
