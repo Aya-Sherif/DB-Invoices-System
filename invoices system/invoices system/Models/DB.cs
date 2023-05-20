@@ -128,24 +128,24 @@ namespace invoices_system.Models
             string Q = "  select invoiceID,invoiceType,startDate,invoiceStatus,contractorName,endDate from Invoice where projectID='"+PID+"'                      ";
             return FuncExecuteReadr(Q);
         }
-        public DataTable getS_Project_AC(string PID)//PM
+        public string getS_Project_AC(string PID)//PM
         {
 
             string Q = "  select workerName from Worker w where w.workerID=(select w.workerID from Works_On wo , Worker w where wo.workerID=w.workerID  and w.roleID='AC' and wo.projectID='"+PID+"')                     ";
-            return FuncExecuteReadr(Q);
-        }
+            return FuncExecuteStringScaler(Q);
+		}
 
-        public DataTable getS_Project_PM(string PID)//PM
+        public string getS_Project_PM(string PID)//PM
         {
 
             string Q = "  select workerName from Worker w where w.workerID=(select w.workerID from Works_On wo , Worker w where wo.workerID=w.workerID  and w.roleID='PM' and wo.projectID='" + PID + "')                     ";
-            return FuncExecuteReadr(Q);
+            return FuncExecuteStringScaler(Q);
         }
-        public DataTable getS_Project_SE(string PID)//PM
+        public string getS_Project_SE(string PID)//PM
         {
 
             string Q = "  select workerName from Worker w where w.workerID=(select w.workerID from Works_On wo , Worker w where wo.workerID=w.workerID  and w.roleID='SE' and wo.projectID='" + PID + "')                     ";
-            return FuncExecuteReadr(Q);
+            return FuncExecuteStringScaler(Q);
         }
     }
 }

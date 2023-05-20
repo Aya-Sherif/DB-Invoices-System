@@ -39,25 +39,41 @@
             <div class="table-wrapper  table table-borderless table-primary">
                 <table>
                     <tbody>
-
-                         <tr>
+                   
+                        
+                        
+                        
+                        <tr>
                               <th>Project Name</th>
-                              <td> @Model.dt.Rows[0][0]</td>
+                            @if (@Model.dt.Rows[0][0] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][0]</td>
+                            }
+                           
                         </tr>
                         <tr >       
                             <th>Project ID : </th>
-                            <td> @Model.dt.Rows[0][1]</td>
+                            @if (@Model.dt.Rows[0][1] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][1]</td>
+                            }
                         </tr>
                         <tr>
                             <th>Project Location: </th>
-                            <td>@Model.dt.Rows[0][2]</td>
+                            @if (@Model.dt.Rows[0][2] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][2]</td>
+                            }
                         </tr>
                         <tr>
                            
                             <th>
                             <td>
-                                
-                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                                    @if (@Model.dt.Rows[0][1] is not null)
+                                    {
+                                    <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                                    }
+                                   
                                
                             </td>
                             </th>
@@ -76,26 +92,39 @@
 
                         <tr>
                             <th>Project Name</th>
-                            <td> @Model.dt.Rows[1][0]</td>
+                            @if (@Model.dt.Rows[1][0] is not null)
+                            {
+                                <td> @Model.dt.Rows[1][0]</td>
+                            }
+
                         </tr>
                         <tr>
                             <th>Project ID : </th>
-                            <td> @Model.dt.Rows[1][1]</td>
+                            @if (@Model.dt.Rows[1][1] is not null)
+                            {
+                                <td> @Model.dt.Rows[1][1]</td>
+                            }
                         </tr>
                         <tr>
                             <th>Project Location: </th>
-                            <td>@Model.dt.Rows[1][2]</td>
+                            @if (@Model.dt.Rows[1][2] is not null)
+                            {
+                                <td> @Model.dt.Rows[1][2]</td>
+                            }
                         </tr>
                         <tr>
-                           
+
                             <th>
                             <td>
-                                
-                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[1][1]"> Show</a>
-                               
+                                    @if (@Model.dt.Rows[1][1] is not null)
+                                    {
+                                    <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[1][1]"> Show</a>
+                                    }
+
+
                             </td>
                             </th>
-                           
+
                         </tr>
 
 
@@ -108,23 +137,35 @@
 
                         <tr>
                             <th>Project Name</th>
-                            <td> ####</td>
+                            @if (@Model.dt.Rows[0][0] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][0]</td>
+                            }
+
                         </tr>
                         <tr>
                             <th>Project ID : </th>
-                            <td> ####</td>
+                            @if (@Model.dt.Rows[0][1] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][1]</td>
+                            }
                         </tr>
                         <tr>
                             <th>Project Location: </th>
-                            <td>####</td>
+                            @if (@Model.dt.Rows[0][2] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][2]</td>
+                            }
                         </tr>
-
                         <tr>
 
                             <th>
                             <td>
+                                    @if (@Model.dt.Rows[0][1] is not null)
+                                    {
+                                    <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                                    }
 
-                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[1][1]"> Show</a>
 
                             </td>
                             </th>
@@ -140,29 +181,42 @@
                 <table>
                     <tbody>
 
-                            <tr>
-                                <th>Project Name</th>
-                                <td> ####</td>
-                                                            </tr>
-<tr >       <th>Project ID : </th>
-                                <td> ####</td> </tr>
+                        <tr>
+                            <th>Project Name</th>
+                            @if (@Model.dt.Rows[0][0] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][0]</td>
+                            }
+
+                        </tr>
+                        <tr>
+                            <th>Project ID : </th>
+                            @if (@Model.dt.Rows[0][1] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][1]</td>
+                            }
+                        </tr>
                         <tr>
                             <th>Project Location: </th>
-                            <td>####</td>
+                            @if (@Model.dt.Rows[0][2] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][2]</td>
+                            }
                         </tr>
-                             
                         <tr>
-                           
+
                             <th>
                             <td>
-                                
-                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
-                               
+                                    @if (@Model.dt.Rows[0][1] is not null)
+                                    {
+                                    <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                                    }
+
+
                             </td>
                             </th>
-                           
-                        </tr>
 
+                        </tr>
 
                           
                     </tbody>
@@ -173,30 +227,40 @@
 
                         <tr>
                             <th>Project Name</th>
-                            <td> ####</td>
+                            @if (@Model.dt.Rows[0][0] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][0]</td>
+                            }
+
                         </tr>
                         <tr>
                             <th>Project ID : </th>
-                            <td> ####</td>
+                            @if (@Model.dt.Rows[0][1] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][1]</td>
+                            }
                         </tr>
                         <tr>
                             <th>Project Location: </th>
-                            <td>####</td>
+                            @if (@Model.dt.Rows[0][2] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][2]</td>
+                            }
                         </tr>
-
-
                         <tr>
 
                             <th>
                             <td>
+                                    @if (@Model.dt.Rows[0][1] is not null)
+                                    {
+                                    <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                                    }
 
-                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
 
                             </td>
                             </th>
 
                         </tr>
-
 
                     </tbody>
                 </table>
@@ -205,24 +269,35 @@
 
                         <tr>
                             <th>Project Name</th>
-                            <td> ####</td>
+                            @if (@Model.dt.Rows[0][0] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][0]</td>
+                            }
+
                         </tr>
                         <tr>
                             <th>Project ID : </th>
-                            <td> ####</td>
+                            @if (@Model.dt.Rows[0][1] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][1]</td>
+                            }
                         </tr>
                         <tr>
                             <th>Project Location: </th>
-                            <td>####</td>
+                            @if (@Model.dt.Rows[0][2] is not null)
+                            {
+                                <td> @Model.dt.Rows[0][2]</td>
+                            }
                         </tr>
-
-
                         <tr>
 
                             <th>
                             <td>
+                                    @if (@Model.dt.Rows[0][1] is not null)
+                                    {
+                                    <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
+                                    }
 
-                                <a asp-page="/ProjectDataProjecrManager" asp-route-id="@Model.dt.Rows[0][1]"> Show</a>
 
                             </td>
                             </th>
@@ -243,3 +318,10 @@
 
 
 </body>
+
+
+
+
+
+
+
