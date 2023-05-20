@@ -31,6 +31,8 @@
                                                                         <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
                                                                             <thead>
                                                                                 <tr>
+                                                                                <th>#</th>
+                                                                                    <th>Invoice ID</th>
                                                                                     <th>Invoice Type</th>
                                                                                     <th>Creation Date</th>
                                                                                     <th>State</th>
@@ -47,7 +49,7 @@
 
                                                                             <tbody>
 
-                                                                           @* @for (int i = 0; i < @Model.dt.Rows.Count; i++)
+                                                                            @for (int i = 0; i < @Model.dt.Rows.Count; i++)
                                                                             {
                                                                                 <tr>
                                                                                     <th scope="row">@i</th>
@@ -60,46 +62,14 @@
                                                                                     </td>
 
                                                                                 </tr>
-                                                                            }*@
+                                                                            }
 
 
                                                                                 
                                                                                 
                                                                                 
                                                                                 
-                                                                            <tr>
-                                                                                    <th>SP01</th>
-                                                                                    <th>2011/04/25</th>
-                                                                                    <th>Loading</th>
-                                                                                    <th>Tiger Nixon</th>
-                                                                                    <th></th>
-                                                                                    <th>
-                                                                                        <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Show </a>
-
-                                                                                    </th>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <th>SP02</th>
-                                                                                    <th>2011/07/25</th>
-                                                                                    <th>Done</th>
-                                                                                    <th>Garrett Winters</th>
-                                                                                    <th></th>
-                                                                                    <th>
-                                                                                        <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Show </a>
-
-                                                                                    </th>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <th>QR01</th>
-                                                                                    <th>2009/01/12</th>
-                                                                                    <th>Stoped</th>
-                                                                                    <th>Ashton Cox</th>
-                                                                                    <th></th>
-                                                                                    <th>
-                                                                                        <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Show </a>
-
-                                                                                    </th>
-                                                                                </tr>
+                                                                            
                                                                             </tbody>
 
                                                                         </table>

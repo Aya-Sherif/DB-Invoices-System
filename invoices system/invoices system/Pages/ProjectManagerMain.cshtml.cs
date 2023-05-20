@@ -8,6 +8,7 @@ namespace invoices_system.Pages
     {
         private readonly DB db;
         [BindProperty]
+        public string  PMUserName { get; set; }
         public Worker W { get; set; }
         public DataTable dt { get; set; }
         public ProjectManagerMainModel(DB db)

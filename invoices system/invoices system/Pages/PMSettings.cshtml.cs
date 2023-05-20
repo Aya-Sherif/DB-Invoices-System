@@ -9,13 +9,21 @@ namespace invoices_system.Pages
         private readonly DB db;
         [BindProperty]
         public Worker W { get; set; }
+        [BindProperty]
+        public string PMUserName { get; set; }
         public DataTable dt { get; set; }
         public PMSettingsModel(DB db)
         {
             this.db = db;
         }
-        public void OnGet()
+        public void OnGet( )
         {
+          
         }
+        
+            
+            
+        
+       
     }
 }

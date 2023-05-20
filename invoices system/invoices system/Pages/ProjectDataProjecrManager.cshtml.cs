@@ -11,9 +11,10 @@ namespace invoices_system.Pages
         public Worker W { get; set; }
         public DataTable dt { get; set; }
         public DataTable dt2 { get; set; }
-        public DataTable dt3 { get; set; }
-        public DataTable dt4 { get; set; }
-        public DataTable dt5 { get; set; }
+		public string dt3 { get; set; }
+		public string dt4 { get; set; }
+        public string dt5 { get; set; }
+        
         public ProjectDataProjecrManagerModel(DB db)
         {
             this.db = db;
