@@ -12,7 +12,7 @@ namespace invoices_system.Models
         SqlConnection con = new SqlConnection();
         public DB()
         {
-            string constring = "Data Source=DESKTOP-VF3J892\\MSSQLSERVER01;Initial Catalog=Invoices_System;Integrated Security=True";
+            string constring = "Data Source=LAPTOP-5TUKEHTJ\\ELSHAHED;Initial Catalog=\"Invoices System\";Integrated Security=True";
             con = new SqlConnection(constring);
         }
         private DataTable FuncExecuteReadr(string Q)
@@ -228,7 +228,7 @@ namespace invoices_system.Models
              FuncExecuteNonQuery(Q);
         }
 
-public DataTable selectallDataOfInvoice(string invoiceId )
+        public DataTable selectallDataOfInvoice(string invoiceId )
         {
             string Q = "\r\n select     I.contractorName,\r\n\t\t    I.projectID   ,    \r\n\t\t    I.startDate    ,   \r\n\t\t    I.endDate     ,  \r\n\t\t    I.invoiceType  , \r\n\t\t    I.invoiceID     ,\r\n\t\t    I.TotaL         ,\r\n\t\t    I.Elta3lya      ,\r\n\t\t\tI.invoiceStatus  , \r\n\t\t\ts.Statements,s.Unit,s.previousQuantities,s.currentQuantities,s.totalQuantities,s.categoryValue,s.currentValue,s.totalQuantities\r\n\t\t\t,Wc.Deduction,wc.Loan,wc.SarfElta3lya\r\n\t\t\tfrom invoice I,Statements s,Weekly_Cost Wc\r\n\t\t\twhere I.invoiceID='" + invoiceId + "'";
             return FuncExecuteReadr(Q);

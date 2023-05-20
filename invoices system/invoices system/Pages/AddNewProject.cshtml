@@ -1,4 +1,100 @@
 ﻿@page
 @model invoices_system.Pages.AddNewProjectModel
 @{
+    Layout = "_AddNewWProject_Layout2";
 }
+
+    
+
+}
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Add New  Project</h3>
+            </div>
+
+            <div class="title_right">
+                <div class="col-md-5 col-sm-5  form-group pull-right top_search">
+                    <div class="input-group">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 ">
+                <div class="x_panel">
+                    <div class="x_title">
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <br />
+                        <form  method="post">
+
+                            <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder=" Name" asp-for="W.workerName">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" placeholder="Worker iD" asp-for="W.workerID">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" placeholder="Phone Number" asp-for="W.phoneNumber">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" placeholder="User Name" asp-for="W.userName">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                <input type="password" class="form-control has-feedback-left" id="password" placeholder="Worker Password" asp-for="W.workerPassword">
+                                <span class="fa fa-unlock-alt form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+                             <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                <input type="text" class="form-control has-feedback-left" placeholder="Role ID" asp-for="W.roleID">
+                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+
+                           
+
+                            
+                            <style>
+                                .btn-float-right {
+                                    float: right;
+                                    width: 250px;
+                                    border: none;
+                                    color: white;
+                                    padding: 15px 32px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    margin: 4px 2px;
+                                    cursor: pointer;
+                                }
+
+                                
+                            </style>
+
+                            <button type="submit" class="btn btn-primary"asp-page="Workers">Add</button>
+
+
+
+                        </form>
+                        
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
