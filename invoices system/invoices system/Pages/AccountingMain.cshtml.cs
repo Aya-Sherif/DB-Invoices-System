@@ -9,6 +9,8 @@ namespace invoices_system.Pages
         private readonly DB db;
         [BindProperty]
         public Worker W { get; set; }
+        [BindProperty]
+        public Project P { get; set; }
         public DataTable dt { get; set; }
         public AccountingMainModel(DB db)
         {
@@ -16,6 +18,15 @@ namespace invoices_system.Pages
         }
         public void OnGet()
         {
+        }
+
+        public IActionResult OnPost()
+        {
+
+            return RedirectToPage("/ProjectDataProjecrManager");
+
+
+
         }
     }
 }

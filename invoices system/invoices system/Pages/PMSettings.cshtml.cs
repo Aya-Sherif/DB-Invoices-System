@@ -18,12 +18,19 @@ namespace invoices_system.Pages
         }
         public void OnGet( )
         {
-          
+            PMUserName = HttpContext.Session.GetString("username");
+            dt = db.getWorkerInfo(PMUserName);
         }
-        
-            
-            
-        
-       
+        public IActionResult OnPost()
+        {
+            db.UpdateWorkerPassword(W.workerPassword, PMUserName);
+            return RedirectToPage("/ProjectManagerMain");
+
+
+        }
+
+
+
+
     }
 }

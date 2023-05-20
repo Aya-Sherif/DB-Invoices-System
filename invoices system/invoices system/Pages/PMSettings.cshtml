@@ -36,24 +36,24 @@
                                     <input type="text" class="form-control has-feedback-left" placeholder="Phone Number" >
                                     <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
                                 </div>*@
-
+                                
                                     <div class="col-md-12 col-sm-12  form-group has-feedback">
-                                    <input type="text" class="form-control has-feedback-left" placeholder="Username" >
+                                    <input type="text" class="form-control has-feedback-left" placeholder="Username"value="@Model.dt.Rows[0][3]" >
                                     <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
                                 </div>
 
                                 <div class="col-md-12 col-sm-12  form-group has-feedback">
-                                    <input type="password" class="form-control has-feedback-left" id="password" placeholder="Password" >
+                                    <input type="password" class="form-control has-feedback-left" id="password" placeholder="Password" value="@Model.dt.Rows[0][4]">
                                     <span class="fa fa-unlock-alt form-control-feedback left" aria-hidden="true"></span>
                                 </div>
-                               @* <div class="col-md-12 col-sm-12  form-group has-feedback">
-                                    <input type="text" class="form-control has-feedback-left" placeholder="Role ID" >
+                                <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                    <input type="text" class="form-control has-feedback-left" placeholder="Role ID" value="@Model.dt.Rows[0][5]">
                                     <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
-                                </div>*@
-                                @* <div class="col-md-12 col-sm-12  form-group has-feedback">
+                                </div>
+                                 <div class="col-md-12 col-sm-12  form-group has-feedback">
                                     <input type="password" class="form-control has-feedback-left" id="password" placeholder="New Password" asp-for="@Model.W.workerPassword">
                                     <span class="fa fa-unlock-alt form-control-feedback left" aria-hidden="true"></span>
-                                </div>*@
+                                </div>
                                 <style>
                                     .btn-float-right {
                                         float: right;
@@ -71,7 +71,7 @@
 
                                 </style>
                                 
-                                @*<button type="button" class=" btn-float-right btn btn-primary"> Update password</button>*@
+                                <button type="button" class=" btn-float-right btn btn-primary" asp-page="/ProjectManagerMain"> Update password</button>
 
 
                             </form>

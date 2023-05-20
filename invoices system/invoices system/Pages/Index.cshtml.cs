@@ -24,6 +24,9 @@ namespace invoices_system.Pages
         }
         public IActionResult OnPost()
         {
+
+            HttpContext.Session.SetString("username", W.userName);
+            
             if (db.CheckPassword(W))
             {
                 if (db.GetWorkerRoleID(W) == "SE")

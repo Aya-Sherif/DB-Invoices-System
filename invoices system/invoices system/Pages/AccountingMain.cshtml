@@ -75,7 +75,7 @@
                     <div class="tab-pane active" id="tab1">
                         <form method="POST" action="#">
                          
-                                <div class="input-group input-group-big">
+           @*                     <div class="input-group input-group-big">
             <input type="text" class="form-control" placeholder="Search this blog">
             <div class="input-group-append">
                 <button class="btn btn-secondary" type="button">
@@ -83,15 +83,15 @@
                 </button>
             </div>
         </div>
-
+*@
                             <div class="row row-space">
                                 <div class="col-2">
                                     <div class="input-group">
-                                        <label class="label">Project </label>
-                                        <input class="input--style-1" type="text" name="check-in"  id="input-start">
+                                        <label class="label">Project ID </label>
+                                        <input class="input--style-1" type="text" name="check-in"  id="input-start" asp-for="@Model.P.projectID">
                                     </div>
                                 </div>
-                                <div class="col-2">
+                               @* <div class="col-2">
                                     <div class="input-group">
                                         <label class="label"> Project Id</label>
                                         <input class="input--style-1" type="text" name="check-out"  id="input-end">
@@ -123,8 +123,11 @@
                                         </div>
                                     </div>
                                 </div>
+                              *@
+                                
+                                
                                 <div class="col-2">
-                                    <button class="btn-submit" type="submit">search</button>
+                                    <button class="btn-submit" type="submit" asp-page="ProjectDataProjecrManager" >search</button>
                                 </div>
                             </div>
                         </form>
