@@ -10,12 +10,15 @@ namespace invoices_system.Pages
         [BindProperty]
         public Worker W { get; set; }
         public DataTable dt { get; set; }
+        public string PMUserName { get; set; }
         public AccountantIsettingsModel(DB db)
         {
             this.db = db;
         }
         public void OnGet()
         {
+            PMUserName = HttpContext.Session.GetString("username");
+            dt = db.getWorkerInfo(PMUserName);
         }
     }
 }
