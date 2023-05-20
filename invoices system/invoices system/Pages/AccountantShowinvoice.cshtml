@@ -1,0 +1,153 @@
+﻿@page
+@model invoices_system.Pages.AccountantShowinvoiceModel
+@{
+    Layout = "AccountantShowinvoice_Layout2";
+}
+       
+    <div class="right_col" role="main">
+        <div class="">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 ">
+                    <div class="x_panel ">
+                        <div class="x_content ">
+                            <section class="content">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="card">
+                                                <div class="body">
+                                                <div class="table-responsive">
+
+                                                    <table id="mainTable" class="table table-borderless table-primary">
+                                                        <tbody>
+
+                                                            <tr>
+                                                                <th>Accountant Name </th>
+                                                                <td>
+                                                                    @Model.pojectdt.Rows[0][3]
+
+                                                                </td>
+                                                                <th>Project Name</th>
+                                                                <td>
+                                                                    @Model.pojectdt.Rows[0][0]
+                                                                </td>
+                                                                <th>Location  </th>
+                                                                <td>
+                                                                    @Model.pojectdt.Rows[0][2]
+                                                                </td>
+                                                                <th>Project ID  </th>
+                                                                <td>
+                                                                    @Model.pojectdt.Rows[0][1]
+                                                                </td>
+                                                               
+
+                                                            </tr>
+
+                                                            <tr>
+                                                                <th>Contractor Name   </th>
+                                                                <td>
+                                                                    @Model.pdt.Rows[0][0]
+                                                                </td>
+                                                                <th> Date  </th>
+                                                                <td>
+                                                                    @Model.pdt.Rows[0][2]
+
+                                                                </td>
+                                                                <th> Invoice Type </th>
+                                                                <td>
+                                                                    @Model.pdt.Rows[0][4]
+                                                                </td>
+                                                           
+                                                            </tr>
+                                                            <tr>
+                                                              
+                                                                <th>Sarf Elta3lyah : </th>
+                                                                <td>
+                                                                    @Model.pdt.Rows[0][19]
+                                                                </td>
+                                                                <th> Elta3lyah :  </th>
+                                                                <td>
+                                                                    @Model.pdt.Rows[0][7]
+                                                                </td>
+                                                                <th> Diduction : </th>
+                                                                <td>
+                                                                    @Model.pdt.Rows[0][17]
+                                                                </td>
+                                                                <th> Loan : </th>
+                                                                <td>
+                                                                    @Model.pdt.Rows[0][18]
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                    <!-- Basic Examples -->
+                                                    <div class="row clearfix">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="card">
+                                                                <div class="body">
+                                                                    <div class="table-responsive">
+                                                                        <table class="table table-bordered table-striped table-hover dataTable js-exportable">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th>Statement</th>
+                                                                                    <th>Unite</th>
+                                                                                    <th>Previous Quantity</th>
+                                                                                    <th>Current Quantity</th>
+                                                                                    <th>Total Quantities</th>
+                                                                                    <th>Category</th>
+                                                                                    <th>Current Value</th>
+                                                                                    <th>Total Values</th>
+
+
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                            <td>
+                                                                                @Model.pdt.Rows[0][8]
+                                                                            </td>
+                                                                            <td>
+                                                                                @Model.pdt.Rows[0][9]
+                                                                            </td>
+                                                                            <td>
+                                                                                @Model.pdt.Rows[0][10]
+                                                                            </td>
+                                                                            <td>
+                                                                                @Model.pdt.Rows[0][11]
+                                                                            </td>
+                                                                            <td>
+                                                                                @Model.pdt.Rows[0][12]
+                                                                            </td>
+                                                                            <td>
+                                                                                @Model.pdt.Rows[0][13]
+                                                                            </td>
+                                                                                    <td>
+                                                                                        @Model.pdt.Rows[0][14]
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        @Model.pdt.Rows[0][15]
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

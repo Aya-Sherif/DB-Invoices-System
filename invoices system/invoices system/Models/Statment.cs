@@ -3,7 +3,7 @@
     public class Statment
     {
 
-        public string  MyProperty { get; set; }
+        public string Statements { get; set; }
         public string Unit { get; set; }
         public int previousQuantities { get; set; }
         public int currentQuantities { get; set; }

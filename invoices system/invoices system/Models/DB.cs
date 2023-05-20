@@ -1,6 +1,8 @@
 ﻿using invoices_system.Pages;
 using System.Data;
 using System.Data.SqlClient;
+using System.Globalization;
+
 namespace invoices_system.Models
 {
     public class DB
@@ -10,7 +12,7 @@ namespace invoices_system.Models
         SqlConnection con = new SqlConnection();
         public DB()
         {
-            string constring = "Data Source=LAPTOP-5TUKEHTJ\\ELSHAHED;Initial Catalog=\"Invoices System\";Integrated Security=True";
+            string constring = "Data Source=DESKTOP-VF3J892\\MSSQLSERVER01;Initial Catalog=Invoices_System;Integrated Security=True";
             con = new SqlConnection(constring);
         }
         private DataTable FuncExecuteReadr(string Q)
@@ -86,7 +88,7 @@ namespace invoices_system.Models
         public bool CheckPassword(Worker W)// this func match username and password
         {
 
-            string Q = " select workerPassword from Worker where userName ='"+W.userName+"' ";
+            string Q = " select workerPassword  from Worker where userName ='" + W.userName+"' ";
 
             
             String_Scaler = FuncExecuteStringScaler(Q);
@@ -165,6 +167,20 @@ namespace invoices_system.Models
             string Q = "  select invoiceID,invoiceType,startDate,invoiceStatus,contractorName,endDate from Invoice                      ";
             return FuncExecuteReadr(Q);
         }
+
+
+      
+
+        /// <summary>
+        /// this function display some data about the last invoices created by this accountant 
+        /// </summary>
+        /// <returns></returns>
+        public DataTable  displyInvoicedata(string id)
+        {
+
+            string Q = "  select invoiceType,invoiceID,invoiceStatus from Invoice I , Works_On wo,Project p,Worker W where W.workerID=wo.workerID and wo.projectID=p.projectID and I.projectID=p.projectID and W.workerID='" + id+"'";
+            return FuncExecuteReadr(Q);
+        }
         public void AddNewWorker(Worker W)
         {
             string Q = "insert into Worker values('"+W.workerName+"','"+W.workerID+"','"+W.phoneNumber+"','"+W.userName+"','"+W.workerPassword+"','"+W.roleID+"') ";
@@ -183,5 +199,40 @@ namespace invoices_system.Models
 
 
         }
+        public string get_worker_id(string username)
+        {
+            string Q = "select workerID from Worker W where W.userName='" + username + "'";
+            return FuncExecuteStringScaler(Q);
+        }
+
+        public DataTable getAccountantAllInvoices(string AcID)
+        {
+
+            string Q = "  select invoiceID,invoiceType,startDate,invoiceStatus,contractorName,endDate from Invoice,Worker where workerID='" + AcID + "'";
+            return FuncExecuteReadr(Q);
+        }
+
+        public void CreateNewTable(Statment S)
+        {
+            string Q = "insert into Statements (Statements,Unit,currentQuantities,categoryValue) values '" + S.Statements + "'";
+        }
+        public DataTable getProjectData(string workerid)
+        {
+            string Q = "select P.projectName,P.projectID,pl.projectLocation,WorkerName from Project P ,Project_Location pl,Worker w where  W.workerID='"+workerid+"' and pl.projectID=p.projectID and  P.projectID in (select W.projectID from Works_On W where W.workerID='" + workerid + "')";
+            return FuncExecuteReadr(Q);
+        }
+
+        public void insertIntoInvoice(Statment S)
+        {
+            string Q = " insert into Statements (Statements,Unit,currentQuantities,categoryValue,invoiceID) values ('" + S.Statements + "' '"+S.Unit+ "' '" + S.currentQuantities + "' '"+S.invoiceID+"' )";
+             FuncExecuteNonQuery(Q);
+        }
+
+public DataTable selectallDataOfInvoice(string invoiceId )
+        {
+            string Q = "\r\n select     I.contractorName,\r\n\t\t    I.projectID   ,    \r\n\t\t    I.startDate    ,   \r\n\t\t    I.endDate     ,  \r\n\t\t    I.invoiceType  , \r\n\t\t    I.invoiceID     ,\r\n\t\t    I.TotaL         ,\r\n\t\t    I.Elta3lya      ,\r\n\t\t\tI.invoiceStatus  , \r\n\t\t\ts.Statements,s.Unit,s.previousQuantities,s.currentQuantities,s.totalQuantities,s.categoryValue,s.currentValue,s.totalQuantities\r\n\t\t\t,Wc.Deduction,wc.Loan,wc.SarfElta3lya\r\n\t\t\tfrom invoice I,Statements s,Weekly_Cost Wc\r\n\t\t\twhere I.invoiceID='" + invoiceId + "'";
+            return FuncExecuteReadr(Q);
+        }
+
     }
 }
