@@ -233,6 +233,20 @@ namespace invoices_system.Models
             string Q = "\r\n select     I.contractorName,\r\n\t\t    I.projectID   ,    \r\n\t\t    I.startDate    ,   \r\n\t\t    I.endDate     ,  \r\n\t\t    I.invoiceType  , \r\n\t\t    I.invoiceID     ,\r\n\t\t    I.TotaL         ,\r\n\t\t    I.Elta3lya      ,\r\n\t\t\tI.invoiceStatus  , \r\n\t\t\ts.Statements,s.Unit,s.previousQuantities,s.currentQuantities,s.totalQuantities,s.categoryValue,s.currentValue,s.totalQuantities\r\n\t\t\t,Wc.Deduction,wc.Loan,wc.SarfElta3lya\r\n\t\t\tfrom invoice I,Statements s,Weekly_Cost Wc\r\n\t\t\twhere I.invoiceID='" + invoiceId + "'";
             return FuncExecuteReadr(Q);
         }
-
+        public void AddNewProject(Project P)
+        {
+            string Q = "insert into Project values('"+P.projectName+"','"+P.projectID+"','"+P.startDate+"','"+P.endDate+"');";
+            FuncExecuteNonQuery(Q);
+        }
+        public DataTable getAllProjects()
+        {
+            string Q = "   select * from Project       ";
+            return FuncExecuteReadr(Q);
+        }
+        public DataTable getAllW()
+        {
+            string Q = "   select * from Worker       ";
+            return FuncExecuteReadr(Q);
+        }
     }
 }

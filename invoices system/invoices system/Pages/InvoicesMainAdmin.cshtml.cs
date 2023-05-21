@@ -16,7 +16,7 @@ namespace invoices_system.Pages
         }
         public void OnGet()
         {
-            
+            dt = db.getS_All_Invoices();
         }
    
     }

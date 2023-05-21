@@ -20,13 +20,6 @@ namespace invoices_system.Pages
         {
         }
 
-        public IActionResult OnPost()
-        {
-
-            return RedirectToPage("/ProjectDataProjecrManager");
-
-
-
-        }
+       
     }
 }
