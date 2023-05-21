@@ -1,0 +1,10 @@
+﻿@page
+@model invoices_system.Pages.approveInvoiceModel
+@{
+}
+<p> Are You sure you want to approve this Invoice</p>
+<p style="color:aqua">  @Model.InvoiceID   </p>
+<form method="post">
+    
+    <a class=" btn btn-secondary" asp-page="/ProjectManagerMain" asp-rour-id="@Model.InvoiceID"> approve</a>
+</form>

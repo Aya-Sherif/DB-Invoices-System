@@ -11,7 +11,8 @@ namespace invoices_system.Pages
         public Worker W { get; set; }
         public DataTable dt { get; set; }
         public DataTable dt2 { get; set; }
-		public string dt3 { get; set; }
+        public string proj { get; set; }
+        public string dt3 { get; set; }
 		public string dt4 { get; set; }
         public string dt5 { get; set; }
         
@@ -21,6 +22,7 @@ namespace invoices_system.Pages
         }
         public void OnGet(string id)
         {
+           
             dt = db.getSelectedProjectsData(id);
             dt2 = db.getS_Project_current_Invoices(id);
             dt3 = db.getS_Project_AC(id);
