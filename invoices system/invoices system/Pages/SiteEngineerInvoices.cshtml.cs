@@ -19,12 +19,14 @@ namespace invoices_system.Pages
             Wo.userName = HttpContext.Session.GetString("username");
             Wo.workerID = db.get_worker_id(Wo.userName);
 
+
             dt = db.getAccountantAllInvoices(Wo.workerID);
 
         }
         public IActionResult OnPostShow()
         {
             return RedirectToAction("/SiteEngineerShowInvoices");
+
         }
     }
 }

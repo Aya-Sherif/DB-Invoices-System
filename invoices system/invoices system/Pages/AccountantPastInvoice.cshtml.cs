@@ -15,6 +15,7 @@ namespace invoices_system.Pages
             this.db = db;
         }
         public void OnGet()
+
         {
             Wo.userName = HttpContext.Session.GetString("username");
             Wo.workerID = db.get_worker_id(Wo.userName);

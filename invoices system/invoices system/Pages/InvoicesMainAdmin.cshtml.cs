@@ -16,15 +16,12 @@ namespace invoices_system.Pages
         }
         public void OnGet()
         {
-<<<<<<< Updated upstream
             dt = db.getS_All_Invoices();
-=======
             Wo.userName = HttpContext.Session.GetString("username");
             Wo.workerID = db.get_worker_id(Wo.userName);
 
             dt = db.getAccountantAllInvoices(Wo.workerID);
 
->>>>>>> Stashed changes
         }
    
     }
