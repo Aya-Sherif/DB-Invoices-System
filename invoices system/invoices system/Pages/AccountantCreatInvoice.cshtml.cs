@@ -31,7 +31,7 @@ namespace invoices_system.Pages
         {
             
             
-                db.insertIntoInvoice(stat);
+              //  db.insertIntoInvoice(stat);
                 return RedirectToAction("/InvoiceAfterCreation");
             
             //return RedirectToAction("/");

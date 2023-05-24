@@ -222,8 +222,11 @@ namespace invoices_system.Models
             return FuncExecuteReadr(Q);
         }
 
-        public void insertIntoInvoice(Statment S)
+        public void insertIntoInvoice(Statment S,Invoice i)
         {
+            string QI = "  insert into Invoice (contractorName , startDate ,invoiceType ,  Elta3lya , projectID ,invoiceID )values('\" + i.contractorName + \"','\" + i.startDate + \"','\" + i.invoiceType + \"','\" + i.Elta3lya + \"','\" + i.projectID + \"','\" + i.invoiceID + \"')";
+               FuncExecuteNonQuery(QI);
+
             string Q = " insert into Statements (Statements,Unit,currentQuantities,categoryValue,invoiceID) values ('" + S.Statements + "' '"+S.Unit+ "' '" + S.currentQuantities + "' '"+S.invoiceID+"' )";
              FuncExecuteNonQuery(Q);
         }

@@ -70,13 +70,13 @@
                                                                 </td>
                                                                 <th> Date  </th>
                                                                 <td>
-                                                                    <input type="text">
+                                                                    <input type="text" asp-for=@Model.invoice.startDate>
                                                                 </td>
                                                                 <th> Invoice Type  </th>
                                                                 <td>
-                                                                    <input type="text">
+                                                                    <input type="text" asp-for=@Model.invoice.invoiceType>
                                                                 </td>
-                                                                <th> Loan  </th>
+                                                                <th> invoice ID  </th>
                                                                 <td>
                                                                     <input type="text" asp-for=@Model.stat.invoiceID />
                                                                 </td>                                                                                                                           </td>
@@ -134,7 +134,7 @@
 
 
                                                                             @for (int i = 0; i < 30; i++)
-                                                                        {
+                                                                            {
                                                                             <tbody>
 
                                                                                    <tr>

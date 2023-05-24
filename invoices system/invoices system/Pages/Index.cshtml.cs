@@ -50,7 +50,7 @@ namespace invoices_system.Pages
                 else if (db.GetWorkerRoleID(W) == "AC")
                 {
                     HttpContext.Session.SetString("username", W.userName);
-                    return RedirectToPage("/SiteEngineerInvoices");
+                    return RedirectToPage("/AccountantMain");
                 }
 
                 else { return Page(); }
@@ -58,7 +58,7 @@ namespace invoices_system.Pages
             }
             else { /*return Page();*/
                 HttpContext.Session.SetString("username", W.userName);
-                return RedirectToPage("/SiteEngineerInvoices");
+                return RedirectToPage("/ProjectManagerMain");
 
 
 
