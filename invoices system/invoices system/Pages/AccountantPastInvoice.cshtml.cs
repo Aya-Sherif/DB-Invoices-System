@@ -7,16 +7,18 @@ namespace invoices_system.Pages
     public class AccountantPastInvoiceModel : PageModel
     {
         private readonly DB db;
-        [BindProperty]
-        public Worker W { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public Worker Wo { get; set; }
         public DataTable dt { get; set; }
         public AccountantPastInvoiceModel(DB db)
         {
             this.db = db;
         }
-        public void OnGet(string id)
+        public void OnGet()
         {
-            dt = db.getAccountantAllInvoices("20211489");
+            Wo.userName = HttpContext.Session.GetString("username");
+            Wo.workerID = db.get_worker_id(Wo.userName);
+            dt = db.getAccountantAllInvoices(Wo.workerID);
            
         }
 

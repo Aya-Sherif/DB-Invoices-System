@@ -7,8 +7,8 @@ namespace invoices_system.Pages
     public class SiteEngineerInvoicesModel : PageModel
     {
         private readonly DB db;
-        [BindProperty]
-        public Worker W { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public Worker Wo { get; set; }
         public DataTable dt { get; set; }
         public SiteEngineerInvoicesModel(DB db)
         {
@@ -16,6 +16,15 @@ namespace invoices_system.Pages
         }
         public void OnGet()
         {
+            Wo.userName = HttpContext.Session.GetString("username");
+            Wo.workerID = db.get_worker_id(Wo.userName);
+
+            dt = db.getAccountantAllInvoices(Wo.workerID);
+
+        }
+        public IActionResult OnPostShow()
+        {
+            return RedirectToAction("/SiteEngineerShowInvoices");
         }
     }
 }

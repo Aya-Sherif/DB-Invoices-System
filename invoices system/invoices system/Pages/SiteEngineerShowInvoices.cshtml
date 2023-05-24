@@ -8,7 +8,6 @@
 
 
         <div class="clearfix"></div>
-
         <div class="row">
             <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
@@ -19,37 +18,63 @@
                                     <table class="table table-borderless table-primary">
 
                                         <tbody>
-
                                             <tr>
-                                                <td>Accountant Name: </td>
-                                                <th>####</th>
-                                                <td>Project Name</td>
-                                                <th> ####</th>
-                                                <td>Project Site :  </td>
-                                                <th>####</th>
-                                                <td>Project ID : </td>
-                                                <th> ####</th>
+
+                                                <th>Accountant Name </th>
+                                                <td>
+                                                    @Model.pojectdt.Rows[0][3]
+
+                                                </td>
+                                                <th>Project Name</th>
+                                                <td>
+                                                    @Model.pojectdt.Rows[0][0]
+                                                </td>
+                                                <th>Location  </th>
+                                                <td>
+                                                    @Model.pojectdt.Rows[0][2]
+                                                </td>
+                                                <th>Project ID  </th>
+                                                <td>
+                                                    @Model.pojectdt.Rows[0][1]
+                                                </td>
+
+
                                             </tr>
 
                                             <tr>
-                                                <td>Constractor Name :  </td>
-                                                <th>####</th>
-                                                <td> Date : </td>
-                                                <th> ####</th>
-                                                <td> Invoice Type: </td>
-                                                <th> ####</th>
+                                                <th>Contractor Name   </th>
+                                                <td>
+                                                    @Model.pdt.Rows[0][0]
+                                                </td>
+                                                <th> Date  </th>
+                                                <td>
+                                                    @Model.pdt.Rows[0][2]
+
+                                                </td>
+                                                <th> Invoice Type </th>
+                                                <td>
+                                                    @Model.pdt.Rows[0][4]
+                                                </td>
+
                                             </tr>
                                             <tr>
-                                                <td> Tax: </td>
-                                                <th>####</th>
-                                                <td>Sarf Elta3lyah : </td>
-                                                <th> ####</th>
-                                                <td> Elta3lyah :  </td>
-                                                <th>####</th>
-                                                <td> Diduction : </td>
-                                                <th> ####</th>
-                                                <td> Loan : </td>
-                                                <th> ####</th>
+
+                                                <th>Sarf Elta3lyah : </th>
+                                                <td>
+                                                    @Model.pdt.Rows[0][19]
+                                                </td>
+                                                <th> Elta3lyah :  </th>
+                                                <td>
+                                                    @Model.pdt.Rows[0][7]
+                                                </td>
+                                                <th> Diduction : </th>
+                                                <td>
+                                                    @Model.pdt.Rows[0][17]
+                                                </td>
+                                                <th> Loan : </th>
+                                                <td>
+                                                    @Model.pdt.Rows[0][18]
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -59,7 +84,6 @@
                                             <tr>
                                             </tr>
                                             <tr>
-                                                <th>#</th>
                                                 <th>Statement</th>
                                                 <th>Unite</th>
                                                 <th>Previous Quantity</th>
@@ -72,37 +96,34 @@
 
                                             </tr>
                                         </thead>
-
-
                                         <tbody>
-                                           @* @for (int i = 0; i < @Model.dt.Rows.Count; i++)
-                                            {
-                                                <tr>
-                                                    <th scope="row">@i</th>
-                                                    @for (int j = 0; j < @Model.dt.Columns.Count; j++)
-                                                    {
-                                                        <td>@Model.dt.Rows[i][j]</td>
-                                                    }
-                                                  
-
-                                                </tr>
-                                            }*@
                                             <tr>
-                                                <td></td>
-                                                <th></th>
-                                                <th></th>
-                                                <th></th>
-                                                <th></th>
-                                                <th></th>
-                                                <th>
-                                                </th>
-                                                <th></th>
-                                                <th>
-                                                </th>
-                                             
+                                                <td>
+                                                    @Model.pdt.Rows[0][8]
+                                                </td>
+                                                <td>
+                                                    @Model.pdt.Rows[0][9]
+                                                </td>
+                                                <td>
+                                                    @Model.pdt.Rows[0][10]
+                                                </td>
+                                                <td>
+                                                    @Model.pdt.Rows[0][11]
+                                                </td>
+                                                <td>
+                                                    @Model.pdt.Rows[0][12]
+                                                </td>
+                                                <td>
+                                                    @Model.pdt.Rows[0][13]
+                                                </td>
+                                                <td>
+                                                    @Model.pdt.Rows[0][14]
+                                                </td>
+                                                <td>
+                                                    @Model.pdt.Rows[0][15]
+                                                </td>
                                             </tr>
                                         </tbody>
-
                                     </table>
                                 </div>
                             </div>

@@ -7,15 +7,27 @@ namespace invoices_system.Pages
     public class SiteEngineerShowInvoicesModel : PageModel
     {
         private readonly DB db;
-        [BindProperty]
-        public Worker W { get; set; }
-        public DataTable dt { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public Worker Wo { get; set; }
+        public Statment stat { get; set; }
+
+        public Invoice invoice { get; set; }
+        public Project project { get; set; }
+
+        public DataTable pojectdt { get; set; }
+        public DataTable pdt { get; set; }
+
+        public Weekly_Cost WC { get; set; }
         public SiteEngineerShowInvoicesModel(DB db)
         {
             this.db = db;
         }
-        public void OnGet()
+        public void OnGet(string id)
         {
+            pdt = db.selectallDataOfInvoice(id);
+            Wo.userName = HttpContext.Session.GetString("username");
+            Wo.workerID = db.get_worker_id(Wo.userName);
+            pojectdt = db.getProjectData(Wo.workerID);
         }
     }
 }

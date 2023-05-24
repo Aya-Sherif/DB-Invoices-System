@@ -1,5 +1,5 @@
 ﻿@page
-@model invoices_system.Pages.InvoicesMainAdminModel
+@model invoices_system.Pages.SiteEngineerInvoicesModel
 @{
     Layout = "_SiteEngineerInvoices_Layout2";
 }
@@ -37,60 +37,30 @@
                                         </thead>
 
 
-                                        @*<tbody>
-                                        @for (int i = 0; i < @Model.dt.Rows.Count; i++)
-                                        {
-                                            <tr>
-                                                <th scope="row">@i</th>
-                                                @for (int j = 0; j < @Model.dt.Columns.Count; j++)
-                                                {
-                                                    <td>@Model.dt.Rows[i][j]</td>
-                                                }
-                                                <td>
-                                                    <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Show </a>
-                                                    <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Approve </button>
-                                                    <a href="#" class="btn btn-danger btn-xs"> <i class="fa fa-ban"></i>Stop </a>
+                                        <tbody>
+                                                                                @for (int i = 0; i < @Model.dt.Rows.Count; i++)
+                                                                                { 
+                                                                                    <tr>
+                                                                                        @for (int j = 0; j < (@Model.dt.Columns.Count)-1; j++)
+                                                                                        {
+                                                                                                    <td>@Model.dt.Rows[i][j]</td>
+                                                                                        }
+                                                                                            <td>
+                                                                                                <form method ="post">
+                                                        <button type="submit" class="btn btn-info btn-xs" asp-page-handler="Show" asp-route-id=@Model.dt.Rows[i][5]><i class="fa fa-pencil"></i> Show </button>
 
-                                                </td>
+                                                                                                <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Approve </button>
 
-                                            </tr>
-                                        }*@
-                                            <tr>
-                                                <th>SP01</th>
-                                                <th>2011/04/25</th>
-                                                <th>Loading</th>
-                                                <th>Tiger Nixon</th>
-                                                <th></th>
-                                                <th>
-                                                <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Show </a>
-                                                <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Approve </button>
-                                                <a href="#" class="btn btn-danger btn-xs"> <i class="fa fa-ban"></i>Stop </a>
+                                                                                                 <a href="#" class="btn btn-danger btn-xs"> <i class="fa fa-ban" ></i>Stop </a>
+                                                                                                 </form>
+                                                                                            </td>
+                                                                                            
+                                                                                    </tr>
+                                                                                }
 
-                                                </th>
-                                            </tr>
-                                            <tr>
-                                                <th>SP02</th>
-                                                <th>2011/07/25</th>
-                                                <th>Done</th>
-                                                <th>Garrett Winters</th>
-                                                <th></th>
-                                                <th>
-                                                <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Show </a>
-                                                <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Approve </button>
-                                                <a href="#" class="btn btn-danger btn-xs"> <i class="fa fa-ban"></i>Stop </a>
 
-                                                </th>
-                                            </tr>
-                                            <tr>
-                                                <th>QR01</th>
-                                                <th>2009/01/12</th>
-                                                <th>Stoped</th>
-                                                <th>Ashton Cox</th>
-                                                <th></th>
-                                                <th>
-                                                    <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Show </a>
-                                                    <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Approve </button>
-                                                    <a href="#" class="btn btn-danger btn-xs"> <i class="fa fa-ban" ></i>Stop </a>
+                                           
+                                           
 
                                                 </th>
                                             </tr>
