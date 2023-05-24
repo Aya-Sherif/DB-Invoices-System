@@ -27,14 +27,14 @@ namespace invoices_system.Pages
             Wo.workerID = db.get_worker_id(Wo.userName);
             pojectdt = db.getProjectData(Wo.workerID);
         }
-        public IActionResult OnPostCreat()
+        public IActionResult OnPost()
         {
-            if (ModelState.IsValid)
-            {
+            
+            
                 db.insertIntoInvoice(stat);
                 return RedirectToAction("/InvoiceAfterCreation");
-            }
-            return RedirectToAction("/");
+            
+            //return RedirectToAction("/");
         }
     }
 }

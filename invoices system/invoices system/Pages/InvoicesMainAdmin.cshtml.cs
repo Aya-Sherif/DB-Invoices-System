@@ -8,7 +8,7 @@ namespace invoices_system.Pages
     {
         private readonly DB db;
         [BindProperty]
-        public Worker W { get; set; }
+        public Worker Wo { get; set; }
         public DataTable dt { get; set; }
         public InvoicesMainAdminModel(DB db)
         {
@@ -16,7 +16,15 @@ namespace invoices_system.Pages
         }
         public void OnGet()
         {
+<<<<<<< Updated upstream
             dt = db.getS_All_Invoices();
+=======
+            Wo.userName = HttpContext.Session.GetString("username");
+            Wo.workerID = db.get_worker_id(Wo.userName);
+
+            dt = db.getAccountantAllInvoices(Wo.workerID);
+
+>>>>>>> Stashed changes
         }
    
     }
