@@ -9,23 +9,23 @@ The system caters to the following main users:
 
 1. Company Admin:
 
-*   This user has comprehensive access and modification rights to all data within the system. The privileges of the Company Admin include accessing and approving invoices, assigning permissions to new user accounts, revoking and modifying permissions from user accounts, and suspending any user account.
+    - This user has comprehensive access and modification rights to all data within the system. The privileges of the Company Admin include accessing and         approving invoices, assigning permissions to new user accounts, revoking and modifying permissions from user accounts, and suspending any user account.
 
 
 2. Site Engineer:
-*   Site Engineers have the authority to approve, suspend, or deny invoices. They can also suspend an invoice if necessary.
-
+    - Site Engineers have the authority to approve, suspend, or deny invoices. They can also suspend an invoice if necessary.
+  
 
 3. Site Accountant:
-Site Accountants are responsible for creating invoices and forwarding them to individuals with approval authority.
+    - Site Accountants are responsible for creating invoices and forwarding them to individuals with approval authority.
 
 
 4. Accounting Department:
-*  The Accounting Department manages the archiving of invoices.
+    - The Accounting Department manages the archiving of invoices.
 
 
 5. Project Manager:
-*   Project Managers can modify the statements of an invoice and have the ability to approve, deny, or suspend invoices.
+    - Project Managers can modify the statements of an invoice and have the ability to approve, deny, or suspend invoices.
 
 ## Project Phases
 The project is divided into three main phases:
